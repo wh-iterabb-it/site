@@ -7,3 +7,5 @@ npm-debug.log
 # Code Coverage Exports
 coverage.lcov
 coverage
+
+.cache
