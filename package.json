@@ -1,30 +1,21 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "name": "site",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "gatsby": "^2.15.28",
-    "gatsby-image": "^2.2.23",
-    "gatsby-plugin-manifest": "^2.2.20",
-    "gatsby-plugin-offline": "^3.0.11",
-    "gatsby-plugin-react-helmet": "^3.1.10",
-    "gatsby-plugin-sharp": "^2.2.27",
-    "gatsby-source-filesystem": "^2.1.28",
-    "gatsby-transformer-sharp": "^2.2.19",
-    "prop-types": "^15.7.2",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-helmet": "^5.2.1"
-  },
-  "devDependencies": {
-    "prettier": "^1.18.2"
-  },
+  "description": "main site of organization whiterabit systems LLC",
   "keywords": [
-    "gatsby"
+    "whiterabbit"
   ],
+  "private": true,
+  "author": "Beau Bouchard",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wh-iterabb-it/site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wh-iterabb-it/site/issues"
+  },
+  "homepage": "https://github.com/wh-iterabb-it/site#readme",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -33,11 +24,21 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  "dependencies": {
+    "gatsby": "2.15.28",
+    "gatsby-image": "2.2.23",
+    "gatsby-plugin-manifest": "2.2.20",
+    "gatsby-plugin-offline": "3.0.11",
+    "gatsby-plugin-react-helmet": "3.1.10",
+    "gatsby-plugin-sharp": "2.2.27",
+    "gatsby-source-filesystem": "2.1.28",
+    "gatsby-transformer-sharp": "2.2.19",
+    "prop-types": "15.7.2",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-helmet": "5.2.1"
   },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  "devDependencies": {
+    "prettier": "1.18.2"
   }
 }
