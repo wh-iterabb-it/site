@@ -4,10 +4,7 @@ import styled from 'styled-components';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-const HomeStyle = styled.div`
-  display: inline-block;
-  text-align: left;
-`;
+
 
 const PreStyle = styled.div`
   margin: auto;
@@ -17,7 +14,7 @@ const PreStyle = styled.div`
   font-family: Monaco, monospace;
   letter-spacing: -0.1rem;
   line-height: 1.1 rem;
-  color: #eff6ee;
+  color: #FFFFFF;
   text-shadow: 0 0 2px rgba(100,100,100,0.5);
   margin-left: 2 rem;
   margin-top: 2 rem;
@@ -28,17 +25,14 @@ const PreStyle = styled.div`
 
 const IndexPage = () => (
   <Layout>
-    <center>
-      <HomeStyle>
-        <SEO title='Home' />
-        <PreStyle>
+    <SEO title='Home' />
+    <PreStyle>
 /== <span>MOTD</span> ======================================================================\<br/>
 |                                                                              |<br/>
 |        Meme Sites are the best Sites                                         |<br/>
+|                                                                              |<br/>
 \==============================================================================/<br/><br/>
-        </PreStyle>
-      </HomeStyle>
-    </center>
+    </PreStyle>
   </Layout>
 )
 

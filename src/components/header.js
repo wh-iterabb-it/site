@@ -2,12 +2,13 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import styled from 'styled-components';
-import Logo from './logo';
+import {ASCIILogo} from './logo';
 
 const HeaderContainerStyle = styled.div`
   position: relative;
   text-align: center;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 `;
 
 const HeaderStyle = styled.div`
@@ -31,8 +32,9 @@ const LogoStyle = styled.div`
 `;
 
 const NavStyle = styled.nav`
-width: 41rem;
-overflow: hidden;
+  width: 41rem;
+  overflow: hidden;
+
   .active {
     text-decoration: underlind;
   }
@@ -55,7 +57,7 @@ overflow: hidden;
 const Header = ({ siteTitle }) => (
   <HeaderContainerStyle>
     <HeaderStyle>
-      <LogoStyle><Logo/></LogoStyle>
+      <LogoStyle><ASCIILogo/></LogoStyle>
       <NavStyle>
         <ul>
           <li><span>|</span></li>
