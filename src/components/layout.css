@@ -1,8 +1,14 @@
+html, body, #___gatsby {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #051120;
+}
 
-pre {
-  display: inline-block;
-  font-family: "unscii", "Lucida Console", monospace, Monaco;
-  font-size: 16px;
-  line-height: 1.0;
-  text-align: left;
+#___gatsby > * {
+  height: 100%;
+}
+
+div[role="group"][tabindex] {
+  height: 100%;
 }
