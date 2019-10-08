@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import {ImageLogo} from '../components/logo';
 
 const PreStyle = styled.div`
   margin: auto;
@@ -25,6 +26,7 @@ const AboutPage = () => (
   <Layout>
     <SEO title='about' />
     <PreStyle>
+        <ImageLogo/>
 /== <span>ABOUT US</span> ==================================================================\<br/>
 |                                                                              |<br/>
 | Contributors to Whiterabbit come from many different backgrounds in the      |<br/>
@@ -35,6 +37,7 @@ const AboutPage = () => (
 |                                                                              |<br/>
 \==============================================================================/<br/><br/>
     </PreStyle>
+
   </Layout>
 )
 
