@@ -16,7 +16,7 @@ const HeaderStyle = styled.div`
 
   a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #66cc66;
   }
 
   nav {
@@ -31,6 +31,8 @@ const LogoStyle = styled.div`
 `;
 
 const NavStyle = styled.nav`
+width: 41rem;
+overflow: hidden;
   .active {
     text-decoration: underlind;
   }
@@ -43,9 +45,9 @@ const NavStyle = styled.nav`
   }
 
   li {
-    padding: 1rem;
+    padding: 0.85rem;
     span {
-      color: #66cccc;
+      color: #eff6ee;
     }
   }
 `;
@@ -59,9 +61,13 @@ const Header = ({ siteTitle }) => (
           <li><span>|</span></li>
           <li><Link to='/'>Home</Link></li>
           <li><span>|</span></li>
-          <li><Link to='/about'>About</Link></li>
+          <li><Link to='/dashboard'>Dashboard</Link></li>
           <li><span>|</span></li>
           <li><a href='https://github.com/wh-iterabb-it'>Github</a></li>
+          <li><span>|</span></li>
+          <li><a href='https://twitter.com/wh_iterabb_it'>Twitter</a></li>
+          <li><span>|</span></li>
+          <li><Link to='/about'>About</Link></li>
           <li><span>|</span></li>
         </ul>
       </NavStyle>

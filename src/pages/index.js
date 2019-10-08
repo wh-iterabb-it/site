@@ -17,10 +17,13 @@ const PreStyle = styled.div`
   font-family: Monaco, monospace;
   letter-spacing: -0.1rem;
   line-height: 1.1 rem;
-  color: #FFFFFF;
+  color: #eff6ee;
   text-shadow: 0 0 2px rgba(100,100,100,0.5);
   margin-left: 2 rem;
   margin-top: 2 rem;
+  span {
+    color: #66CCCC;
+  }
 `;
 
 const IndexPage = () => (
@@ -29,7 +32,7 @@ const IndexPage = () => (
       <HomeStyle>
         <SEO title='Home' />
         <PreStyle>
-/== MOTD ======================================================================\<br/>
+/== <span>MOTD</span> ======================================================================\<br/>
 |                                                                              |<br/>
 |        Meme Sites are the best Sites                                         |<br/>
 \==============================================================================/<br/><br/>

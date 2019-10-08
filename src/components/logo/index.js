@@ -16,7 +16,6 @@ const PreStyle = styled.div`
  }
 `;
 
-
 const Logo = () => (
 <PreStyle>
 ███ <span>───────</span> ▄█ ███ <span>────</span> ▄ <span>──</span> ▄█ <span>──────────────────────</span> ███ <span>───</span> ███ <span>────</span> ▄ <span>──</span> ▄█ <br/>
@@ -25,8 +24,6 @@ const Logo = () => (
 &nbsp;&nbsp;&nbsp;██▄ ██▄ ▀   ███ ███ ███  ███  ███    ▄ ███   ██▄▄██ ███ ██▀ ███ ██▀ ███  ███ <br/>
 &nbsp;&nbsp;&nbsp;██  ███     ███ ███ ███  ███   ▀██▄▄█▀ ███    ▀██▀█ ███ █▀  ███ █▀  ███  ███ <br/>
 <span>───────────────────────────</span> ███ <span>───────────────────────────────────────────</span> ███ <br/>
-
-
 </PreStyle>
 )
 
