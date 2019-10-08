@@ -3,6 +3,7 @@ html, body, #___gatsby {
   margin: 0;
   padding: 0;
   background-color: #051120;
+  color: #FFFFFF;
 }
 
 #___gatsby > * {
