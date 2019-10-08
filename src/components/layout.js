@@ -15,9 +15,9 @@ import Footer from './footer';
 import './layout.css';
 
 const LayoutContainerStyle = styled.div`
-height: 100%;
-margin: 0;
-padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
   background-color: #051120;
   position: relative;
   text-align: center;
@@ -42,11 +42,11 @@ const Layout = ({ children }) => {
 
   return (
     <LayoutContainerStyle>
-    <LayoutStyle>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <main>{children}</main>
-      <Footer />
-    </LayoutStyle>
+      <LayoutStyle>
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <main>{children}</main>
+        <Footer />
+      </LayoutStyle>
     </LayoutContainerStyle>
   )
 }
