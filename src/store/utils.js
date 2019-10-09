@@ -98,4 +98,4 @@ function generate(passlen, options) {
   return returnPass
 }
 
-modules.export = { generate }
+export { generate }

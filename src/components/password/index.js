@@ -31,7 +31,7 @@ const ConnectedPassword = connect(
   mapDispatchToProps
 )(Password)
 
-class DefaultLayout extends Component {
+class PasswordLayout extends Component {
   render() {
     return (
       <div>
@@ -42,4 +42,4 @@ class DefaultLayout extends Component {
   }
 }
 
-export default DefaultPassword
+export default PasswordLayout

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -35,6 +36,7 @@ const DashboardPage = () => (
 <API apiUrl='https://meteorology.herokuapp.com/health' name='meteorology' link='https://github.com/wh-iterabb-it/meteorology'/>
 <API apiUrl='https://aphorismcookie.herokuapp.com/health' name='aphorismcookie' link='https://github.com/wh-iterabb-it/aphorismcookie'/>
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: <span>DASHBOARD</span> :::<br/><br/>
+  <Link to='/password'>Password</Link>
     </PreStyle>
   </Layout>
 )

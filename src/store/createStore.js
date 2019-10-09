@@ -23,6 +23,11 @@ const reducer = (state, action) => {
         ...state,
         password: newPassword
       }
+    case actionTypes.SET_LENGTH_VALUES:
+    return {
+      ...state,
+      length: action.payload
+    }
     default:
       return state;
   }

@@ -1,8 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import Length from '../components/password/length';
+import PasswordLayout from '../components/password/';
 
 const PreStyle = styled.div`
   margin: auto;
@@ -26,7 +29,8 @@ const PasswordPage = () => (
     <SEO title='Password Generator' />
     <PreStyle>
 ::: <span>PASSWORD GENERATOR</span> :::::::::::::::::::::::::::::::::::::::::::::::::::::::::<br/><br/>
-
+<Length />
+<PasswordLayout/>
     </PreStyle>
   </Layout>
 )
