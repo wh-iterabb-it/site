@@ -5,6 +5,9 @@ import PropTypes from 'prop-types';
 const APIContainerStyle = styled.div`
   position: relative;
   text-align: center;
+  width: 20rem;
+  height: 8rem;
+  float: left;
 
   ul {
     display: flex;
@@ -15,10 +18,12 @@ const APIContainerStyle = styled.div`
 
   li {
     margin: auto;
-    span {
-      color: #eff6ee;
-    }
   }
+
+  span {
+    color: #c45100;
+  }
+
   a {
     text-decoration: none;
     color: #66cc66;
@@ -71,14 +76,13 @@ class API extends Component {
       return <div>Loading...</div>;
     } else {
       return (
-        <APIContainerStyle>
-          <ul>
-            <li><span>{this.state.name} API</span></li>
-            <li>Uptime: {items.uptime}</li>
-            <li>Version: {items.version}</li>
-            <li><a href='{this.state.link}'>[{this.state.name}@GITHUB]</a></li>
-          </ul>
-        </APIContainerStyle>
+<APIContainerStyle>
+<span>{this.state.name} API</span><br/>
+::  Status: <a href={this.state.apiUrl}>GOOD</a>         ::<br/>
+::  Uptime: {items.uptime}  ::<br/>
+::  Version: {items.version}       ::<br/>
+<a href={this.state.link}>[{this.state.name}@GITHUB]</a><br/>
+</APIContainerStyle>
       );
     }
   }

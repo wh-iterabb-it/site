@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import API from '../components/dashboard/api';
+import MOTD from '../components/dashboard/motd';
 
 const PreStyle = styled.div`
   margin: auto;
@@ -27,10 +28,13 @@ const DashboardPage = () => (
     <SEO title='about' />
     <PreStyle>
 ::: <span>DASHBOARD</span> ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<br/><br/>
-    <API apiUrl='https://meowfacts.herokuapp.com/health' name='meowfacts' link='https://github.com/wh-iterabb-it/meowfacts'/><br/>
-    <API apiUrl='https://mtastate.herokuapp.com/health' name='mtastate' link='https://github.com/wh-iterabb-it/mtastate'/><br/>
-    <API apiUrl='https://meteorology.herokuapp.com/health' name='meteorology' link='https://github.com/wh-iterabb-it/meteorology'/><br/>
-    <API apiUrl='https://aphorismcookie.herokuapp.com/health' name='aphorismcookie' link='https://github.com/wh-iterabb-it/aphorismcookie'/><br/>
+~ <MOTD/> ~ <br/><br/>
+::::::: <span>API HEALTH</span> :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<br/><br/>
+<API apiUrl='https://meowfacts.herokuapp.com/health' name='meowfacts' link='https://github.com/wh-iterabb-it/meowfacts'/>
+<API apiUrl='https://mtastate.herokuapp.com/health' name='mtastate' link='https://github.com/wh-iterabb-it/mtastate'/>
+<API apiUrl='https://meteorology.herokuapp.com/health' name='meteorology' link='https://github.com/wh-iterabb-it/meteorology'/>
+<API apiUrl='https://aphorismcookie.herokuapp.com/health' name='aphorismcookie' link='https://github.com/wh-iterabb-it/aphorismcookie'/>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: <span>DASHBOARD</span> :::<br/><br/>
     </PreStyle>
   </Layout>
 )
