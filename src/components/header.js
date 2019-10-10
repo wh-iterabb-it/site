@@ -2,7 +2,7 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import styled from 'styled-components';
-import {ASCIILogo} from './logo';
+import {ASCIILogo1} from './logo';
 
 const HeaderContainerStyle = styled.div`
   position: relative;
@@ -13,7 +13,7 @@ const HeaderContainerStyle = styled.div`
 
 const HeaderStyle = styled.div`
   margin: auto;
-  width: 41rem;
+  width: 42rem;
 
   a {
     text-decoration: none;
@@ -32,7 +32,7 @@ const LogoStyle = styled.div`
 `;
 
 const NavStyle = styled.nav`
-  width: 41rem;
+  width: 42rem;
   overflow: hidden;
 
   .active {
@@ -57,7 +57,7 @@ const NavStyle = styled.nav`
 const Header = ({ siteTitle }) => (
   <HeaderContainerStyle>
     <HeaderStyle>
-      <LogoStyle><ASCIILogo/></LogoStyle>
+      <LogoStyle><ASCIILogo1/></LogoStyle>
       <NavStyle>
         <ul>
           <li><span>|</span></li>

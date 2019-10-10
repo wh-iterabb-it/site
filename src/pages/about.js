@@ -26,7 +26,6 @@ const AboutPage = () => (
   <Layout>
     <SEO title='about' />
     <PreStyle>
-        <ImageLogo/>
 /== <span>ABOUT US</span> ==================================================================\<br/>
 |                                                                              |<br/>
 | Contributors to Whiterabbit come from many different backgrounds in the      |<br/>

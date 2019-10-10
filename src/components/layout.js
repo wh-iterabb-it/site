@@ -26,7 +26,7 @@ const LayoutContainerStyle = styled.div`
 const LayoutStyle = styled.div`
 
   margin: auto;
-  width: 41rem;
+  width: 43rem;
 `;
 
 const Layout = ({ children }) => {
@@ -45,7 +45,7 @@ const Layout = ({ children }) => {
       <LayoutStyle>
         <Header siteTitle={data.site.siteMetadata.title} />
         <main>{children}</main>
-        <Footer />
+
       </LayoutStyle>
     </LayoutContainerStyle>
   )
