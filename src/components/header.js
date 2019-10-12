@@ -22,7 +22,7 @@ const HeaderStyle = styled.div`
 
   nav {
     margin: auto;
-    font-family: 'FreeMono', Monaco, monospace;
+    font-family: 'Courier New', 'FreeMono', Monaco, monospace;
     line-height: 1.1 rem;
     text-shadow: 0 0 2px rgba(100,100,100,0.5);
   }

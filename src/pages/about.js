@@ -11,7 +11,7 @@ const PreStyle = styled.div`
   font-size: 12px;
   white-space: pre-wrap;
   display: inline-block;
-  font-family: 'FreeMono', 'Ubuntu Mono', Monaco, monospace;
+  font-family: 'Courier New', 'FreeMono', Monaco, monospace;
   letter-spacing: -0.1rem;
   line-height: 1.1 rem;
   color: #FFFFFF;
