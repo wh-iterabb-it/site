@@ -5,7 +5,6 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-import PasswordLayout from '../components/password/';
 
 const PreStyle = styled.div`
   margin: auto;
@@ -30,7 +29,6 @@ const PasswordPage = () => (
     <PreStyle>
 ::: <span>PASSWORD GENERATOR</span> :::::::::::::::::::::::::::::::::::::::::::::::::::::::::<br/><br/>
 
-    <PasswordLayout/>
     </PreStyle>
   </Layout>
 )
