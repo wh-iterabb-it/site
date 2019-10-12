@@ -8,6 +8,15 @@
   font-style: normal;
 }
 
+pre,
+code,
+kbd,
+samp,
+tt{
+  font-family:monospace,monospace;
+  font-size:1em;
+}
+
 
 html, body, #___gatsby {
   height: 100%;
