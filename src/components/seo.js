@@ -72,7 +72,9 @@ function SEO({ description, lang, meta, title }) {
           content: `width=device-width, initial-scale=1`
         },
       ].concat(meta)}
-    />
+    >
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet" /> 
+    </Helmet>
   )
 }
 

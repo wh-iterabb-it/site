@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'gatsby';
 
 import SEO from '../components/seo';
+import '../components/layout.css';
 import {ASCIILogo1, ASCIILogo2, ASCIILogo4} from '../components/logo';
 
 const LayoutContainerStyle = styled.div`
@@ -35,7 +36,7 @@ const PreStyle = styled.div`
   margin-top: 2 rem;
   white-space: pre-wrap;
   color: #FFFFFF;
-  font-family: Monaco, monospace;
+  font-family: 'FreeMono', Monaco, monospace;
   letter-spacing: -0.1rem;
   line-height: 1.1 rem;
   text-shadow: 0 0 2px rgba(100,100,100,0.5);
