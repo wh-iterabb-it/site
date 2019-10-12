@@ -20,6 +20,7 @@ const PreStyle = styled.div`
   text-shadow: 0 0 2px rgba(100,100,100,0.5);
   margin-left: 2 rem;
   margin-top: 2 rem;
+
   span {
     color: #66CCCC;
   }
