@@ -1,17 +1,13 @@
-import styled from 'styled-components';
 import React, { Component }  from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-
-const APIContainerStyle = styled.div`
-`;
 
 const Password = ({ password, generate }) => (
   <div>
     <p>password: {password}</p>
     <button onClick={generate}>Generate</button>
   </div>
-)
+);
 
 Password.propTypes = {
   password: PropTypes.string.isRequired,
