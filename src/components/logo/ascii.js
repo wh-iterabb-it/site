@@ -2,18 +2,25 @@ import React from 'react';
 import styled from 'styled-components';
 
 const PreStyle = styled.div`
- white-space: pre-wrap;
- display: inline-block;
- font-family: Monaco, monospace;
- letter-spacing: -0.115rem;
- line-height: 1.1 rem;
- text-shadow: 0 0 2px rgba(100,100,100,0.5);
- margin-left: 2 rem;
- margin-top: 2 rem;
- color: #cccc66;
- span {
+  font-size: 12px;
+  width: 100%;
+  white-space: pre-wrap;
+  display: inline-block;
+  font-family: Monaco, monospace;
+  letter-spacing: -0.115rem;
+  line-height: 1.1 rem;
+  text-shadow: 0 0 2px rgba(100,100,100,0.5);
+  margin-left: 2 rem;
+  margin-top: 2 rem;
+  color: #cccc66;
+  span {
    color: #cc6666;
- }
+  }
+
+  @media only screen and (min-width: 768px) {
+    font-size: 16px;
+    width: 40rem;
+  }
 `;
 
 const ASCIILogo1 = () => (

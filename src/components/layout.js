@@ -16,6 +16,7 @@ import './layout.css';
 
 const LayoutContainerStyle = styled.div`
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   background-color: #051120;
@@ -26,7 +27,13 @@ const LayoutContainerStyle = styled.div`
 const LayoutStyle = styled.div`
 
   margin: auto;
-  width: 43rem;
+  width: 100%;
+  font-size: 12px;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 16px;
+    width: 40rem;
+  }
 `;
 
 const Layout = ({ children }) => {

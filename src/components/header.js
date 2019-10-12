@@ -13,7 +13,8 @@ const HeaderContainerStyle = styled.div`
 
 const HeaderStyle = styled.div`
   margin: auto;
-  width: 42rem;
+  font-size: 12px;
+  width: 100%;
 
   a {
     text-decoration: none;
@@ -26,30 +27,46 @@ const HeaderStyle = styled.div`
     line-height: 1.1 rem;
     text-shadow: 0 0 2px rgba(100,100,100,0.5);
   }
+
+  @media only screen and (min-width: 768px) {
+    font-size: 16px;
+    width: 40rem;
+  }
 `;
 
 const LogoStyle = styled.div`
 `;
 
 const NavStyle = styled.nav`
-  width: 42rem;
+  width: 100%;
+  font-size: 12px;
+  margin: auto;
+
   overflow: hidden;
 
   .active {
-    text-decoration: underlind;
+    text-decoration: underline;
   }
 
   ul {
-    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
   }
 
   li {
-    padding: 0.85rem;
+    padding: 0.5rem;
+    display:inline;
     span {
       color: #eff6ee;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    font-size: 16px;
+    width: 40rem;
+    li {
+      padding: 0.85rem;
     }
   }
 `;

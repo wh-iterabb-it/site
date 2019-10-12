@@ -7,7 +7,8 @@ import {ImageLogo} from '../components/logo';
 
 const PreStyle = styled.div`
   margin: auto;
-  width: 41rem;
+  width: 100%;
+  font-size: 12px;
   white-space: pre-wrap;
   display: inline-block;
   font-family: Monaco, monospace;
@@ -20,21 +21,26 @@ const PreStyle = styled.div`
   span {
     color: #66CCCC;
   }
+
+  @media only screen and (min-width: 768px) {
+    font-size: 16px;
+    width: 40rem;
+  }
 `;
 
 const AboutPage = () => (
   <Layout>
     <SEO title='about - whiterabbit' />
     <PreStyle>
-/== <span>ABOUT US</span> ==================================================================\<br/>
-|                                                                              |<br/>
-| Contributors to Whiterabbit come from many different backgrounds in the      |<br/>
-| fields of infosec, pentesting, data engineering, game development,           |<br/>
-| hardware, and other human professions. We share a singular goal. . .         |<br/>
-| To strive to connect talented, passionate people in order to share           |<br/>
-| information, and contribute to the world around us.                          |<br/>
-|                                                                              |<br/>
-\==============================================================================/<br/><br/>
+/== <span>ABOUT US</span> =================================================================\<br/>
+|                                                                             |<br/>
+| Contributors to Whiterabbit come from many different backgrounds in the     |<br/>
+| fields of infosec, pentesting, data engineering, game development,          |<br/>
+| hardware, and other human professions. We share a singular goal. . .        |<br/>
+| To strive to connect talented, passionate people in order to share          |<br/>
+| information, and contribute to the world around us.                         |<br/>
+|                                                                             |<br/>
+\=============================================================================/<br/><br/>
     </PreStyle>
 
   </Layout>
