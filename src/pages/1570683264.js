@@ -27,6 +27,9 @@ const LayoutStyle = styled.div`
 `;
 
 const PreStyle = styled.div`
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
   font-size: 10px;
   width: 100%;
   margin-top: 2 rem;

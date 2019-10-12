@@ -8,6 +8,9 @@ import API from '../components/dashboard/api';
 import MOTD from '../components/dashboard/motd';
 
 const PreStyle = styled.div`
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
   margin: auto;
   width: 100%;
   font-size: 12px;
