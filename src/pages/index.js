@@ -7,11 +7,11 @@ import {ASCIILogo1, ASCIILogo2, ASCIILogo4} from '../components/logo';
 
 const PreStyle = styled.div`
   margin: auto;
-  font-size: 11px;
+  font-size: 10px;
   width: 100%;
   white-space: pre-wrap;
   display: inline-block;
-  font-family: Monaco, monospace;
+  font-family: 'Source Code Pro', Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif;
   letter-spacing: -0.1rem;
   line-height: 1.1 rem;
   color: #FFFFFF;

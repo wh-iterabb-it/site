@@ -8,12 +8,15 @@ import API from '../components/dashboard/api';
 import MOTD from '../components/dashboard/motd';
 
 const PreStyle = styled.div`
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
   margin: auto;
   width: 100%;
-  font-size: 12px;
+  font-size: 10px;
   white-space: pre-wrap;
   display: inline-block;
-  font-family: Monaco, monospace;
+  font-family: 'Source Code Pro', Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif;
   letter-spacing: -0.1rem;
   line-height: 1.1 rem;
   color: #FFFFFF;
@@ -36,14 +39,15 @@ const DashboardPage = () => (
   <Layout>
     <SEO title='dashboard - whiterabbit' />
     <PreStyle>
-::: <span>DASHBOARD</span> :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<br/><br/>
+
+::: <span>DASHBOARD</span> :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<br/><br/>
 ~ <MOTD/> ~ <br/><br/>
-::::::: <span>API HEALTH</span> ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<br/><br/>
+::::::: <span>API HEALTH</span> ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<br/><br/>
 <API apiUrl='https://meowfacts.herokuapp.com/health' name='meowfacts' link='https://github.com/wh-iterabb-it/meowfacts'/>
 <API apiUrl='https://mtastate.herokuapp.com/health' name='mtastate' link='https://github.com/wh-iterabb-it/mtastate'/>
 <API apiUrl='https://meteorology.herokuapp.com/health' name='meteorology' link='https://github.com/wh-iterabb-it/meteorology'/>
 <API apiUrl='https://aphorismcookie.herokuapp.com/health' name='aphorismcookie' link='https://github.com/wh-iterabb-it/aphorismcookie'/>
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: <span>DASHBOARD</span> :::<br/><br/>
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: <span>DASHBOARD</span> :::<br/><br/>
 
     </PreStyle>
   </Layout>

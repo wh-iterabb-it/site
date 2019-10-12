@@ -68,7 +68,11 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <link href='https://adobe-fonts.github.io/source-code-pro/source-code-pro.css' rel='stylesheet' />
+      <meta charset='utf-8' />
+      <meta name='viewport' content='width=device-width, initial-scale=1' />
+    </Helmet>
   )
 }
 

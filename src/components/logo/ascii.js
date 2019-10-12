@@ -2,11 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 const PreStyle = styled.div`
-  font-size: 11px;
+  font-size: 10px;
   width: 100%;
   white-space: pre-wrap;
   display: inline-block;
-  font-family: Monaco, monospace;
+  font-family: 'Source Code Pro', Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif;
   letter-spacing: -0.115rem;
   line-height: 1.1 rem;
   text-shadow: 0 0 2px rgba(100,100,100,0.5);
@@ -25,17 +25,31 @@ const PreStyle = styled.div`
 
 const ASCIILogo1 = () => (
 <PreStyle>
-███ <span>───────</span> ▄█ ███ <span>────</span> ▄ <span>──</span> ▄█ <span>──────────────────────</span> ███ <span>───</span> ███ <span>────</span> ▄ <span>──</span> ▄█ <br/>
-&nbsp;██▄ ██▄ █████ ███     ▀█▀  ▄██   ▄██▀▀██ ███▄█▄  ▄▄ ▄ ███     ███     ▀█▀  ▄██ <br/>
-&nbsp;&nbsp;██▄ ██▄ ███  ███ ██  ███ █████ ▄███▄▄▄█ ███ ▀ ▄█████ ███ █▄  ███ █▄  ███ █████<br/>
-&nbsp;&nbsp;&nbsp;██▄ ██▄ ▀   ███ ███ ███  ███  ███    ▄ ███   ██▄▄██ ███ ██▀ ███ ██▀ ███  ███ <br/>
-&nbsp;&nbsp;&nbsp;██  ███     ███ ███ ███  ███   ▀██▄▄█▀ ███    ▀██▀█ ███ █▀  ███ █▀  ███  ███ <br/>
-<span>───────────────────────────</span> ███ <span>───────────────────────────────────────────</span> ███ <br/>
+                                                                     <br/>
+███ <span>───────</span> ▄█ ███ <span>────</span> ▄ <span>──</span> ▄█ <span>──────────────────────</span> ███ <span>───</span> ███ <span>────</span> ▄ <span>──</span> ▄█  <br/>
+&nbsp;██▄ ██▄ █████ ███     ▀█▀  ▄██   ▄██▀▀██ ███▄█▄  ▄▄ ▄ ███     ███     ▀█▀  ▄██  <br/>
+&nbsp;&nbsp;██▄ ██▄ ███  ███ ██  ███ █████ ▄███▄▄▄█ ███ ▀ ▄█████ ███ █▄  ███ █▄  ███ █████ <br/>
+&nbsp;&nbsp;&nbsp;██▄ ██▄ ▀   ███ ███ ███  ███  ███    ▄ ███   ██▄▄██ ███ ██▀ ███ ██▀ ███  ███  <br/>
+&nbsp;&nbsp;&nbsp;██  ███     ███ ███ ███  ███   ▀██▄▄█▀ ███    ▀██▀█ ███ █▀  ███ █▀  ███  ███  <br/>
+<span>───────────────────────────</span> ███ <span>──────────────────────────────────────────</span>  ███  <br/>
+</PreStyle>
+);
+
+const ASCIILogo5= () => (
+<PreStyle>
+                                                                     <br/>
+███&nbsp;<span>───────</span>&nbsp;▄█&nbsp;███&nbsp;<span>────</span>&nbsp;▄&nbsp;<span>──</span>&nbsp;▄█&nbsp;<span>──────────────────────</span>&nbsp;███&nbsp;<span>───</span>&nbsp;███&nbsp;<span>────</span>&nbsp;▄&nbsp;<span>──</span>&nbsp;▄█&nbsp;<br/>
+&nbsp;██▄&nbsp;██▄&nbsp;█████&nbsp;███&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▀█▀&nbsp;&nbsp;▄██&nbsp;&nbsp;&nbsp;▄██▀▀██&nbsp;███▄█▄&nbsp;&nbsp;▄▄&nbsp;▄&nbsp;███&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;███&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▀█▀&nbsp;&nbsp;▄██&nbsp;<br/>
+&nbsp;&nbsp;██▄&nbsp;██▄&nbsp;███&nbsp;&nbsp;███&nbsp;██&nbsp;&nbsp;███&nbsp;█████&nbsp;▄███▄▄▄█&nbsp;███&nbsp;▀&nbsp;▄█████&nbsp;███&nbsp;█▄&nbsp;&nbsp;███&nbsp;█▄&nbsp;&nbsp;███&nbsp;█████<br/>
+&nbsp;&nbsp;&nbsp;██▄&nbsp;██▄&nbsp;▀&nbsp;&nbsp;&nbsp;███&nbsp;███&nbsp;███&nbsp;&nbsp;███&nbsp;&nbsp;███&nbsp;&nbsp;&nbsp;&nbsp;▄&nbsp;███&nbsp;&nbsp;&nbsp;██▄▄██&nbsp;███&nbsp;██▀&nbsp;███&nbsp;██▀&nbsp;███&nbsp;&nbsp;███&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;██&nbsp;&nbsp;███&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;███&nbsp;███&nbsp;███&nbsp;&nbsp;███&nbsp;&nbsp;&nbsp;▀██▄▄█▀&nbsp;███&nbsp;&nbsp;&nbsp;&nbsp;▀██▀█&nbsp;███&nbsp;█▀&nbsp;&nbsp;███&nbsp;█▀&nbsp;&nbsp;███&nbsp;&nbsp;███&nbsp;<br/>
+<span>───────────────────────────</span>&nbsp;███&nbsp;<span>──────────────────────────────────────────</span>&nbsp;&nbsp;███&nbsp;<br/>
 </PreStyle>
 );
 
 const ASCIILogo2 = () => (
 <PreStyle>
+                                                                     <br/>
 ██<span>╗</span>    ██<span>╗</span>██<span>╗</span>  ██<span>╗</span>██<span>╗</span>████████<span>╗</span>███████<span>╗</span>██████<span>╗</span>  █████<span>╗</span> ██████<span>╗</span> ██████<span>╗</span> ██<span>╗</span>████████<span>╗</span><br/>
 ██<span>║</span>    ██<span>║</span>██<span>║</span>  ██<span>║</span>██<span>║╚══</span>██<span>╔══╝</span>██<span>╔════╝</span>██<span>╔══</span>██<span>╗</span>██<span>╔══</span>██<span>╗</span>██<span>╔══</span>██<span>╗</span>██<span>╔══</span>██<span>╗</span>██<span>║╚══</span>██<span>╔══╝</span><br/>
 ██<span>║</span> █<span>╗</span> ██<span>║</span>███████<span>║</span>██<span>║</span>   ██<span>║</span>   █████<span>╗</span>  ██████<span>╔╝</span>███████<span>║</span>██████<span>╔╝</span>██████<span>╔╝</span>██<span>║</span>   ██<span>║</span>   <br/>

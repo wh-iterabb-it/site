@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const FooterStyle = styled.footer`
-  font-family: 'TopazPlus', 'Lucida Console', Monaco, monospace;
+  font-family: 'Ubuntu Mono', Monaco, monospace;
   color: #FFFFFF;
   letter-spacing: -0.1rem;
   line-height: 1.1 rem;
