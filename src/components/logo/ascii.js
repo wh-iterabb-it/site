@@ -6,7 +6,7 @@ const PreStyle = styled.div`
   width: 100%;
   white-space: pre-wrap;
   display: inline-block;
-  font-family: 'Courier New', 'Lucida Console', 'FreeMono', Monaco, monospace;
+  font-family: 'Source Code Pro', Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif;
   letter-spacing: -0.115rem;
   line-height: 1.1 rem;
   text-shadow: 0 0 2px rgba(100,100,100,0.5);
