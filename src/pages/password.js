@@ -4,8 +4,7 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import Length from '../components/password/length';
-import PasswordLayout from '../components/password/';
+
 
 const PreStyle = styled.div`
   margin: auto;
@@ -26,11 +25,10 @@ const PreStyle = styled.div`
 
 const PasswordPage = () => (
   <Layout>
-    <SEO title='Password Generator' />
+    <SEO title='password generator' />
     <PreStyle>
 ::: <span>PASSWORD GENERATOR</span> :::::::::::::::::::::::::::::::::::::::::::::::::::::::::<br/><br/>
 
-<PasswordLayout/>
     </PreStyle>
   </Layout>
 )

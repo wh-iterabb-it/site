@@ -37,7 +37,7 @@ const PreStyle = styled.div`
 
 const BlogPage = () => (
   <LayoutStyle>
-    <SEO title='Whiterabbit Updated 1570683264' />
+    <SEO title='whiterabbit updated 1570683264' />
     <PreStyle>
 ┌───────────────────────────────────────────────────────────────────┐<br/>
 :                                                                   :<br/><br/>

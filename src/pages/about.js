@@ -24,7 +24,7 @@ const PreStyle = styled.div`
 
 const AboutPage = () => (
   <Layout>
-    <SEO title='about' />
+    <SEO title='about - whiterabbit' />
     <PreStyle>
 /== <span>ABOUT US</span> ==================================================================\<br/>
 |                                                                              |<br/>
