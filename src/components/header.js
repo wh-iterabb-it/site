@@ -12,8 +12,7 @@ const HeaderContainerStyle = styled.div`
 `;
 
 const HeaderStyle = styled.div`
-  margin: auto;
-  font-size: 12px;
+
   width: 100%;
 
   a {
@@ -39,7 +38,7 @@ const LogoStyle = styled.div`
 
 const NavStyle = styled.nav`
   width: 100%;
-  font-size: 12px;
+  font-size: 10px;
   margin: auto;
 
   overflow: hidden;
@@ -55,7 +54,7 @@ const NavStyle = styled.nav`
   }
 
   li {
-    padding: 0.5rem;
+    padding: 0.3rem;
     display:inline;
     span {
       color: #eff6ee;

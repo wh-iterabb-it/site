@@ -28,7 +28,7 @@ const LayoutStyle = styled.div`
 
   margin: auto;
   width: 100%;
-  font-size: 12px;
+  font-size: 10px;
 
   @media only screen and (min-width: 768px) {
     font-size: 16px;
