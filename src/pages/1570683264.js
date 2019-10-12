@@ -74,12 +74,11 @@ const BlogPage = () => (
   │     <a href='https://meta.stackexchange.com/questions/334900/official-faq-on-gender-pronouns-and-code-of-conduct-changes'>tried to anticipate some of the most common</a>         │<br/>
   │     <a href='https://meta.stackexchange.com/questions/334900/official-faq-on-gender-pronouns-and-code-of-conduct-changes'>questions people may have.</a>                          │<br/>
   │  >> <Link to='/password'>we created a new password generator.</Link>                │<br/>
-  │  >> <Link to='/password'>we created a new password generator.</Link>                │<br/>
   │                                                         │<br/>
   │                                                         │<br/>
   │                                                         │<br/>
   │ ··· ────────────────────────────────────────────────────┤<br/>
-  ├─╼ <span>good reads</span> ╾─────────────────────────────────── ···   │<br/>
+  ├─╼ <span>patch notes</span> ╾────────────────────────────────── ···   │<br/>
   │                                                         │<br/>
   │                                                         │<br/>
   │                                                         │<br/>

@@ -52,7 +52,6 @@ const Layout = ({ children }) => {
       <LayoutStyle>
         <Header siteTitle={data.site.siteMetadata.title} />
         <main>{children}</main>
-
       </LayoutStyle>
     </LayoutContainerStyle>
   )
