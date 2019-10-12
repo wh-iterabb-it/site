@@ -22,7 +22,7 @@ const HeaderStyle = styled.div`
 
   nav {
     margin: auto;
-    font-family: 'FreeMono', 'Ubuntu Mono', Monaco, monospace;
+    font-family: 'FreeMono', Monaco, monospace;
     line-height: 1.1 rem;
     text-shadow: 0 0 2px rgba(100,100,100,0.5);
   }
