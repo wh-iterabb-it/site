@@ -7,7 +7,7 @@ import {ASCIILogo1, ASCIILogo2, ASCIILogo4} from '../components/logo';
 
 const PreStyle = styled.div`
   margin: auto;
-  font-size: 11px;
+  font-size: 10px;
   width: 100%;
   white-space: pre-wrap;
   display: inline-block;
