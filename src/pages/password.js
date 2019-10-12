@@ -7,8 +7,9 @@ import SEO from '../components/seo';
 
 
 const PreStyle = styled.div`
+  font-size: 11px;
   margin: auto;
-  width: 41rem;
+  width: 100%;
   white-space: pre-wrap;
   display: inline-block;
   font-family: Monaco, monospace;
@@ -21,6 +22,10 @@ const PreStyle = styled.div`
   span {
     color: #66CCCC;
   }
+  @media only screen and (min-width: 768px) {
+    font-size: 16px;
+    width: 40rem;
+  }
 `;
 
 const PasswordPage = () => (
@@ -28,7 +33,7 @@ const PasswordPage = () => (
     <SEO title='password generator' />
     <PreStyle>
 ::: <span>PASSWORD GENERATOR</span> :::::::::::::::::::::::::::::::::::::::::::::::::::::::::<br/><br/>
-I disabled it for right now... 
+I disabled it for right now...
     </PreStyle>
   </Layout>
 )

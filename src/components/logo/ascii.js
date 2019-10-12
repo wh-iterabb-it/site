@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const PreStyle = styled.div`
-  font-size: 12px;
+  font-size: 11px;
   width: 100%;
   white-space: pre-wrap;
   display: inline-block;
