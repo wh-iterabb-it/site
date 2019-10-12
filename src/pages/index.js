@@ -7,7 +7,8 @@ import {ASCIILogo1, ASCIILogo2, ASCIILogo4} from '../components/logo';
 
 const PreStyle = styled.div`
   margin: auto;
-  width: 40rem;
+  font-size: 12px;
+  width: 100%;
   white-space: pre-wrap;
   display: inline-block;
   font-family: Monaco, monospace;
@@ -24,12 +25,20 @@ const PreStyle = styled.div`
     text-decoration: none;
     color: #66cc66;
   }
+
+  @media only screen and (min-width: 768px) {
+    font-size: 16px;
+    width: 40rem;
+  }
 `;
 
 const IndexPage = () => (
   <Layout>
     <SEO title='home - whiterabbit' />
     <PreStyle>
+<br/><br/>
+<b>▁ ▂ ▄ ▅ ▆ ▇ █  A R C H I V E  █ ▇ ▆ ▅ ▄ ▂ ▁</b><br/>
+<br/><br/>
     <Link to='/1570683264'>1570683264</Link>
     </PreStyle>
   </Layout>

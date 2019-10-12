@@ -28,7 +28,7 @@ const PasswordPage = () => (
     <SEO title='password generator' />
     <PreStyle>
 ::: <span>PASSWORD GENERATOR</span> :::::::::::::::::::::::::::::::::::::::::::::::::::::::::<br/><br/>
-
+I disabled it for right now... 
     </PreStyle>
   </Layout>
 )
