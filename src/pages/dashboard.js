@@ -26,7 +26,7 @@ const PreStyle = styled.div`
 
 const DashboardPage = () => (
   <Layout>
-    <SEO title='about' />
+    <SEO title='dashboard - whiterabbit' />
     <PreStyle>
 ::: <span>DASHBOARD</span> ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<br/><br/>
 ~ <MOTD/> ~ <br/><br/>
@@ -36,7 +36,7 @@ const DashboardPage = () => (
 <API apiUrl='https://meteorology.herokuapp.com/health' name='meteorology' link='https://github.com/wh-iterabb-it/meteorology'/>
 <API apiUrl='https://aphorismcookie.herokuapp.com/health' name='aphorismcookie' link='https://github.com/wh-iterabb-it/aphorismcookie'/>
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: <span>DASHBOARD</span> :::<br/><br/>
-  <Link to='/password'>Password</Link>
+
     </PreStyle>
   </Layout>
 )

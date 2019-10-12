@@ -28,9 +28,8 @@ const PreStyle = styled.div`
 
 const IndexPage = () => (
   <Layout>
-    <SEO title='Home' />
+    <SEO title='home - whiterabbit' />
     <PreStyle>
-
     <Link to='/1570683264'>1570683264</Link>
     </PreStyle>
   </Layout>
