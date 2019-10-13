@@ -113,6 +113,7 @@ const BlogPage = () => (
   <RedStyle>│</RedStyle> │     <a href='https://www.cnn.com/2019/10/09/business/nba-china-hong-kong-explainer/index.html'>voiced his support for Hong Kong's pro-democracy</a>    │ <RedStyle>│</RedStyle><br/>
   <RedStyle>│</RedStyle> │     <a href='https://www.cnn.com/2019/10/09/business/nba-china-hong-kong-explainer/index.html'>protestors.</a>                                         │ <RedStyle>│</RedStyle><br/>
   <RedStyle>│</RedStyle> │                                                         │ <RedStyle>│</RedStyle><br/>
+  <RedStyle>│</RedStyle> │                                                         │ <RedStyle>│</RedStyle><br/>
   <RedStyle>│</RedStyle> │ ··· ────────────────────────────────────────────────────│ <RedStyle>│</RedStyle><br/>
   <RedStyle>└─</RedStyle>│                                                         │<RedStyle>─┘</RedStyle><br/>
   ├─╼ <BlueStyle>crypto</BlueStyle> ╾─────────────────────────────────────── ···   │<br/>
@@ -120,9 +121,12 @@ const BlogPage = () => (
   │  >> <a href='https://www.sec.gov/news/press-release/2019-212'>U.S. Securities and Exchange Commission Halts</a>       │<br/>
   │     <a href='https://www.sec.gov/news/press-release/2019-212'>Alleged $1.7 Billion Unregistered Digital</a>           │<br/>
   │     <a href='https://www.sec.gov/news/press-release/2019-212'>Token Offering</a>                                      │<br/>
-  │  >> <a href='https://www.cnbc.com/2019/10/04/paypal-withdraws-from-facebooks-libra-cryptocurrency.html'>PayPal withdraws from Facebook’s libra coin</a>         │<br/>
+  │  >> <a href='https://arstechnica.com/tech-policy/2019/10/visa-mastercard-stripe-and-ebay-all-quit-facebooks-libra-in-one-day/'>Visa, Mastercard, Stripe, and eBay all quit</a>         │<br/>
+  │     <a href='https://arstechnica.com/tech-policy/2019/10/visa-mastercard-stripe-and-ebay-all-quit-facebooks-libra-in-one-day/'>Facebook’s Libra in one day</a>                         │<br/>
   │  >> <a href='https://arstechnica.com/tech-policy/2019/08/judge-blasts-intentionally-false-testimony-by-supposed-bitcoin-creator/'>Judge savages self-proclaimed</a>                       │<br/>
   │     <a href='https://arstechnica.com/tech-policy/2019/08/judge-blasts-intentionally-false-testimony-by-supposed-bitcoin-creator/'>bitcoin inventor Craig Wright</a>                       │<br/>
+  │  >> <a href='https://www.change.org/p/freerosspetition-we-seek-potus-s-clemency-for-ross-ulbricht-serving-double-life-for-a-website-realdonaldtrump-free-ross'>Petition to free the founder of the Silk Road</a>       │<br/>
+  │     <a href='https://www.change.org/p/freerosspetition-we-seek-potus-s-clemency-for-ross-ulbricht-serving-double-life-for-a-website-realdonaldtrump-free-ross'>passes 200,000 signees</a>                              │<br/>
   │                                                         │<br/>
   │                                                         │<br/>
   │ ··· ────────────────────────────────────────────────────┤<br/>
