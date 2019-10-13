@@ -5,10 +5,14 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import {ImageLogo} from '../components/logo';
 
+const BlueStyle = styled.span`
+  color: #66CCCC;
+`;
+
 const PreStyle = styled.div`
   margin: auto;
   width: 100%;
-  font-size: 12px;
+  font-size: 10px;
   white-space: pre-wrap;
   display: inline-block;
   font-family: 'Source Code Pro', Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif;
@@ -18,9 +22,6 @@ const PreStyle = styled.div`
   text-shadow: 0 0 2px rgba(100,100,100,0.5);
   margin-left: 2 rem;
   margin-top: 2 rem;
-  span {
-    color: #66CCCC;
-  }
 
   @media only screen and (min-width: 768px) {
     font-size: 16px;
@@ -32,7 +33,7 @@ const AboutPage = () => (
   <Layout>
     <SEO title='about - whiterabbit' />
     <PreStyle>
-/== <span>ABOUT US</span> =================================================================\<br/>
+/== <BlueStyle>ABOUT US</BlueStyle> =================================================================\<br/>
 |                                                                             |<br/>
 | Contributors to Whiterabbit come from many different backgrounds in the     |<br/>
 | fields of infosec, pentesting, data engineering, game development,          |<br/>

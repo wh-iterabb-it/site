@@ -1,6 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 
+const RedStyle = styled.span`
+  color: #cc6666;
+`;
+
+const BlueStyle = styled.span`
+  color: #66CCCC;
+`;
+const YellowStyle = styled.span`
+  color: #cccc66;
+
+`;
+
 const PreStyle = styled.div`
   font-size: 10px;
   width: 100%;
@@ -13,9 +25,6 @@ const PreStyle = styled.div`
   margin-left: 2 rem;
   margin-top: 2 rem;
   color: #cccc66;
-  span {
-   color: #cc6666;
-  }
 
   @media only screen and (min-width: 768px) {
     font-size: 16px;
@@ -26,36 +35,36 @@ const PreStyle = styled.div`
 const ASCIILogo1 = () => (
 <PreStyle>
                                                                      <br/>
-███ <span>───────</span> ▄█ ███ <span>────</span> ▄ <span>──</span> ▄█ <span>──────────────────────</span> ███ <span>───</span> ███ <span>────</span> ▄ <span>──</span> ▄█  <br/>
+███ <RedStyle>───────</RedStyle> ▄█ ███ <RedStyle>────</RedStyle> ▄ <RedStyle>──</RedStyle> ▄█ <RedStyle>──────────────────────</RedStyle> ███ <RedStyle>───</RedStyle> ███ <RedStyle>────</RedStyle> ▄ <RedStyle>──</RedStyle> ▄█  <br/>
 &nbsp;██▄ ██▄ █████ ███     ▀█▀  ▄██   ▄██▀▀██ ███▄█▄  ▄▄ ▄ ███     ███     ▀█▀  ▄██  <br/>
 &nbsp;&nbsp;██▄ ██▄ ███  ███ ██  ███ █████ ▄███▄▄▄█ ███ ▀ ▄█████ ███ █▄  ███ █▄  ███ █████ <br/>
 &nbsp;&nbsp;&nbsp;██▄ ██▄ ▀   ███ ███ ███  ███  ███    ▄ ███   ██▄▄██ ███ ██▀ ███ ██▀ ███  ███  <br/>
 &nbsp;&nbsp;&nbsp;██  ███     ███ ███ ███  ███   ▀██▄▄█▀ ███    ▀██▀█ ███ █▀  ███ █▀  ███  ███  <br/>
-<span>───────────────────────────</span> ███ <span>──────────────────────────────────────────</span>  ███  <br/>
+<RedStyle>───────────────────────────</RedStyle> ███ <RedStyle>──────────────────────────────────────────</RedStyle>  ███  <br/>
 </PreStyle>
 );
 
 const ASCIILogo5= () => (
 <PreStyle>
                                                                      <br/>
-███&nbsp;<span>───────</span>&nbsp;▄█&nbsp;███&nbsp;<span>────</span>&nbsp;▄&nbsp;<span>──</span>&nbsp;▄█&nbsp;<span>──────────────────────</span>&nbsp;███&nbsp;<span>───</span>&nbsp;███&nbsp;<span>────</span>&nbsp;▄&nbsp;<span>──</span>&nbsp;▄█&nbsp;<br/>
+███&nbsp;<RedStyle>───────</RedStyle>&nbsp;▄█&nbsp;███&nbsp;<RedStyle>────</RedStyle>&nbsp;▄&nbsp;<RedStyle>──</RedStyle>&nbsp;▄█&nbsp;<RedStyle>──────────────────────</RedStyle>&nbsp;███&nbsp;<RedStyle>───</RedStyle>&nbsp;███&nbsp;<RedStyle>────</RedStyle>&nbsp;▄&nbsp;<RedStyle>──</RedStyle>&nbsp;▄█&nbsp;<br/>
 &nbsp;██▄&nbsp;██▄&nbsp;█████&nbsp;███&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▀█▀&nbsp;&nbsp;▄██&nbsp;&nbsp;&nbsp;▄██▀▀██&nbsp;███▄█▄&nbsp;&nbsp;▄▄&nbsp;▄&nbsp;███&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;███&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▀█▀&nbsp;&nbsp;▄██&nbsp;<br/>
 &nbsp;&nbsp;██▄&nbsp;██▄&nbsp;███&nbsp;&nbsp;███&nbsp;██&nbsp;&nbsp;███&nbsp;█████&nbsp;▄███▄▄▄█&nbsp;███&nbsp;▀&nbsp;▄█████&nbsp;███&nbsp;█▄&nbsp;&nbsp;███&nbsp;█▄&nbsp;&nbsp;███&nbsp;█████<br/>
 &nbsp;&nbsp;&nbsp;██▄&nbsp;██▄&nbsp;▀&nbsp;&nbsp;&nbsp;███&nbsp;███&nbsp;███&nbsp;&nbsp;███&nbsp;&nbsp;███&nbsp;&nbsp;&nbsp;&nbsp;▄&nbsp;███&nbsp;&nbsp;&nbsp;██▄▄██&nbsp;███&nbsp;██▀&nbsp;███&nbsp;██▀&nbsp;███&nbsp;&nbsp;███&nbsp;<br/>
 &nbsp;&nbsp;&nbsp;██&nbsp;&nbsp;███&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;███&nbsp;███&nbsp;███&nbsp;&nbsp;███&nbsp;&nbsp;&nbsp;▀██▄▄█▀&nbsp;███&nbsp;&nbsp;&nbsp;&nbsp;▀██▀█&nbsp;███&nbsp;█▀&nbsp;&nbsp;███&nbsp;█▀&nbsp;&nbsp;███&nbsp;&nbsp;███&nbsp;<br/>
-<span>───────────────────────────</span>&nbsp;███&nbsp;<span>──────────────────────────────────────────</span>&nbsp;&nbsp;███&nbsp;<br/>
+<RedStyle>───────────────────────────</RedStyle>&nbsp;███&nbsp;<RedStyle>──────────────────────────────────────────</RedStyle>&nbsp;&nbsp;███&nbsp;<br/>
 </PreStyle>
 );
 
 const ASCIILogo2 = () => (
 <PreStyle>
                                                                      <br/>
-██<span>╗</span>    ██<span>╗</span>██<span>╗</span>  ██<span>╗</span>██<span>╗</span>████████<span>╗</span>███████<span>╗</span>██████<span>╗</span>  █████<span>╗</span> ██████<span>╗</span> ██████<span>╗</span> ██<span>╗</span>████████<span>╗</span><br/>
-██<span>║</span>    ██<span>║</span>██<span>║</span>  ██<span>║</span>██<span>║╚══</span>██<span>╔══╝</span>██<span>╔════╝</span>██<span>╔══</span>██<span>╗</span>██<span>╔══</span>██<span>╗</span>██<span>╔══</span>██<span>╗</span>██<span>╔══</span>██<span>╗</span>██<span>║╚══</span>██<span>╔══╝</span><br/>
-██<span>║</span> █<span>╗</span> ██<span>║</span>███████<span>║</span>██<span>║</span>   ██<span>║</span>   █████<span>╗</span>  ██████<span>╔╝</span>███████<span>║</span>██████<span>╔╝</span>██████<span>╔╝</span>██<span>║</span>   ██<span>║</span>   <br/>
-██<span>║</span>███<span>╗</span>██<span>║</span>██<span>╔══</span>██<span>║</span>██<span>║</span>   ██<span>║</span>   ██<span>╔══╝</span>  ██<span>╔══</span>██<span>╗</span>██<span>╔══</span>██<span>║</span>██<span>╔══</span>██<span>╗</span>██<span>╔══</span>██<span>╗</span>██<span>║</span>   ██<span>║</span>   <br/>
-<span>╚</span>███<span>╔</span>███<span>╔╝</span>██<span>║</span>  ██<span>║</span>██<span>║</span>   ██<span>║</span>   ███████<span>╗</span>██<span>║</span>  ██<span>║</span>██<span>║</span>  ██<span>║</span>██████<span>╔╝</span>██████<span>╔╝</span>██<span>║</span>   ██<span>║</span>   <br/>
-<span> ╚══╝╚══╝</span> <span>╚═╝</span>  <span>╚═╝╚═╝</span>   <span>╚═╝</span>   <span>╚══════╝╚═╝</span>  <span>╚═╝╚═╝</span>  <span>╚═╝╚═════╝</span> <span>╚═════╝</span> <span>╚═╝</span>   <span>╚═╝</span>   <br/>
+██<RedStyle>╗</RedStyle>    ██<RedStyle>╗</RedStyle>██<RedStyle>╗</RedStyle>  ██<RedStyle>╗</RedStyle>██<RedStyle>╗</RedStyle>████████<RedStyle>╗</RedStyle>███████<RedStyle>╗</RedStyle>██████<RedStyle>╗</RedStyle>  █████<RedStyle>╗</RedStyle> ██████<RedStyle>╗</RedStyle> ██████<RedStyle>╗</RedStyle> ██<RedStyle>╗</RedStyle>████████<RedStyle>╗</RedStyle><br/>
+██<RedStyle>║</RedStyle>    ██<RedStyle>║</RedStyle>██<RedStyle>║</RedStyle>  ██<RedStyle>║</RedStyle>██<RedStyle>║╚══</RedStyle>██<RedStyle>╔══╝</RedStyle>██<RedStyle>╔════╝</RedStyle>██<RedStyle>╔══</RedStyle>██<RedStyle>╗</RedStyle>██<RedStyle>╔══</RedStyle>██<RedStyle>╗</RedStyle>██<RedStyle>╔══</RedStyle>██<RedStyle>╗</RedStyle>██<RedStyle>╔══</RedStyle>██<RedStyle>╗</RedStyle>██<RedStyle>║╚══</RedStyle>██<RedStyle>╔══╝</RedStyle><br/>
+██<RedStyle>║</RedStyle> █<RedStyle>╗</RedStyle> ██<RedStyle>║</RedStyle>███████<RedStyle>║</RedStyle>██<RedStyle>║</RedStyle>   ██<RedStyle>║</RedStyle>   █████<RedStyle>╗</RedStyle>  ██████<RedStyle>╔╝</RedStyle>███████<RedStyle>║</RedStyle>██████<RedStyle>╔╝</RedStyle>██████<RedStyle>╔╝</RedStyle>██<RedStyle>║</RedStyle>   ██<RedStyle>║</RedStyle>   <br/>
+██<RedStyle>║</RedStyle>███<RedStyle>╗</RedStyle>██<RedStyle>║</RedStyle>██<RedStyle>╔══</RedStyle>██<RedStyle>║</RedStyle>██<RedStyle>║</RedStyle>   ██<RedStyle>║</RedStyle>   ██<RedStyle>╔══╝</RedStyle>  ██<RedStyle>╔══</RedStyle>██<RedStyle>╗</RedStyle>██<RedStyle>╔══</RedStyle>██<RedStyle>║</RedStyle>██<RedStyle>╔══</RedStyle>██<RedStyle>╗</RedStyle>██<RedStyle>╔══</RedStyle>██<RedStyle>╗</RedStyle>██<RedStyle>║</RedStyle>   ██<RedStyle>║</RedStyle>   <br/>
+<RedStyle>╚</RedStyle>███<RedStyle>╔</RedStyle>███<RedStyle>╔╝</RedStyle>██<RedStyle>║</RedStyle>  ██<RedStyle>║</RedStyle>██<RedStyle>║</RedStyle>   ██<RedStyle>║</RedStyle>   ███████<RedStyle>╗</RedStyle>██<RedStyle>║</RedStyle>  ██<RedStyle>║</RedStyle>██<RedStyle>║</RedStyle>  ██<RedStyle>║</RedStyle>██████<RedStyle>╔╝</RedStyle>██████<RedStyle>╔╝</RedStyle>██<RedStyle>║</RedStyle>   ██<RedStyle>║</RedStyle>   <br/>
+<RedStyle> ╚══╝╚══╝</RedStyle> <RedStyle>╚═╝</RedStyle>  <RedStyle>╚═╝╚═╝</RedStyle>   <RedStyle>╚═╝</RedStyle>   <RedStyle>╚══════╝╚═╝</RedStyle>  <RedStyle>╚═╝╚═╝</RedStyle>  <RedStyle>╚═╝╚═════╝</RedStyle> <RedStyle>╚═════╝</RedStyle> <RedStyle>╚═╝</RedStyle>   <RedStyle>╚═╝</RedStyle>   <br/>
 </PreStyle>
 );
 
