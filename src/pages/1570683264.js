@@ -11,12 +11,20 @@ const BlueStyle = styled.span`
 `;
 
 const RedStyle = styled.span`
-  color: #cc6666;
+  color: #CC6666;
+`;
+
+const GreenStyle = styled.span`
+  color: #66CC66;
+`;
+
+const YellowStyle = styled.span`
+  color: #CCCC66;
 `;
 
 const RedAccentStyle = styled.span`
   font-size:20px;
-  color: #cc6666;
+  color: #CC6666;
 `;
 
 const LayoutContainerStyle = styled.div`
@@ -74,7 +82,7 @@ const BlogPage = () => (
 ┌─────────────────────────────────────────────────────────────┐<br/>
 :                                                             :<br/>
 <ASCIILogo2/><br/>
-: ┌─┐                                                     ┌─┐ :<br/>
+: ┌─┐     <BlueStyle>august</BlueStyle>                                          ┌─┐ :<br/>
 └─│─┘                              <BlueStyle>updated</BlueStyle> 1570683264     └─│─┘<br/>
   │ ··· ────────────────────────────────────────────────────┤<br/>
   │                                                         │<br/>
