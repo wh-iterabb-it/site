@@ -146,6 +146,7 @@ const BlogPage = () => (
   │                                                         │<br/>
   │ ··· ────────────────────────────────────────────────────┤<br/>
   └────── <Link to='/'>home</Link> | <Link to='/dashboard'>dashboard</Link> | <a href='https://github.com/wh-iterabb-it'>github</a> | <a href='https://twitter.com/wh_iterabb_it'>twitter</a> | <Link to='/about'>about</Link> ──────┘<br/>
+<br/><br/><br/>
       </PreStyle>
     </LayoutStyle>
   </LayoutContainerStyle>
