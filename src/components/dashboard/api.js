@@ -5,9 +5,10 @@ import PropTypes from 'prop-types';
 const APIContainerStyle = styled.div`
   position: relative;
   text-align: center;
-  width: 20rem;
-  height: 8rem;
+  width: 100%;
+  margin-bottom: 1rem;
   float: left;
+  font-size: 14px;
 
   ul {
     display: flex;
@@ -22,6 +23,11 @@ const APIContainerStyle = styled.div`
 
   span {
     color: #c45100;
+  }
+
+  @media only screen and (min-width: 768px) {
+    width: 19rem;
+    font-size: 16px;
   }
 `;
 

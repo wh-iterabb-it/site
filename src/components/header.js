@@ -7,7 +7,6 @@ import {ASCIILogo1} from './logo';
 const HeaderContainerStyle = styled.div`
   position: relative;
   text-align: center;
-  margin-top: 1rem;
   margin-bottom: 1rem;
 `;
 
@@ -74,6 +73,7 @@ const NavStyle = styled.nav`
 const Header = ({ siteTitle }) => (
   <HeaderContainerStyle>
     <HeaderStyle>
+      <br/>
       <LogoStyle><ASCIILogo1/></LogoStyle>
       <NavStyle>
         <ul>

@@ -50,10 +50,10 @@ const BlogPage = () => (
 │                                                                            │<br/>
 <OverlapStyle><ASCIIRocketFrame/></OverlapStyle>
 │                                                                            │<br/>
-│   >> <a href='https://www.apnews.com/d6a459d8c4774153ad71de95e9effea0'>North Korea conducts under-water missile launch test days before</a>      │<br/>
+│   <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://www.apnews.com/d6a459d8c4774153ad71de95e9effea0'>North Korea conducts under-water missile launch test days before</a>      │<br/>
 │      <a href='https://www.apnews.com/d6a459d8c4774153ad71de95e9effea0'>resuming US talks</a>                                                     │<br/>
 │                                                                            │<br/>
-│   >> <a href='https://www.snopes.com/ap/2019/10/15/ahead-of-2020-fb-ensnared-in-heated-political-climate/'>The hashtag deletefacebook is trending on social media after it</a>       │<br/>
+│   <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://www.snopes.com/ap/2019/10/15/ahead-of-2020-fb-ensnared-in-heated-political-climate/'>The hashtag deletefacebook is trending on social media after it</a>       │<br/>
 │      <a href='https://www.snopes.com/ap/2019/10/15/ahead-of-2020-fb-ensnared-in-heated-political-climate/'>emerged Mark Zuckerberg held informal dinners with conservative</a>       │<br/>
 │      <a href='https://www.snopes.com/ap/2019/10/15/ahead-of-2020-fb-ensnared-in-heated-political-climate/'>politicians and commentators in the US.</a>                               │<br/>
 │                                                                            │<br/>
@@ -75,8 +75,8 @@ const BlogPage = () => (
 │ │                                                                        │ │<br/>
 │ └── ─ -                                                            - ─ ──┘ │<br/>
 └────────────────────────────────────────────────────────────────────────────┘<br/>
-
-
+<br/>
+<br/>
 </DefaultAsciiStyle>
 
       </LayoutStyle>
