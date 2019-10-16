@@ -7,12 +7,18 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled,{ createGlobalStyle }  from 'styled-components';
 import { useStaticQuery, graphql } from 'gatsby';
 
 import Header from './header';
 import Footer from './footer';
 import './layout.css';
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    background-color: #051120;
+  }
+`;
 
 const LayoutContainerStyle = styled.div`
   width: 100%;
@@ -49,12 +55,15 @@ const Layout = ({ children }) => {
   `)
 
   return (
+
     <LayoutContainerStyle>
+    <GlobalStyle/>
       <LayoutStyle>
         <Header siteTitle={data.site.siteMetadata.title} />
         <main>{children}</main>
       </LayoutStyle>
     </LayoutContainerStyle>
+
   )
 }
 
