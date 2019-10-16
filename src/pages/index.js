@@ -36,12 +36,18 @@ const IndexPage = () => (
   <Layout>
     <SEO title='home - whiterabbit' />
     <PreStyle>
-<br/><br/>
-<b>▁ ▂ ▄ ▅ ▆ ▇ █  A R C H I V E  █ ▇ ▆ ▅ ▄ ▂ ▁</b><br/>
-<br/><br/>
-    <Link to='/1570683264'>1570683264</Link>
+      <br/>
+      <br/>
+      <b>▁ ▂ ▄ ▅ ▆ ▇ █  A R C H I V E  █ ▇ ▆ ▅ ▄ ▂ ▁</b>
+      <br/>
+      <br/>
+      <br/>
+
+      <Link to='/1570683264'>August 2019</Link><br/>
     </PreStyle>
   </Layout>
 )
+
+//       <!--Link to='/1571242602'>October 2019</Link><br/>
 
 export default IndexPage

@@ -7,16 +7,23 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled,{ createGlobalStyle }  from 'styled-components';
 import { useStaticQuery, graphql } from 'gatsby';
 
 import Header from './header';
 import Footer from './footer';
 import './layout.css';
 
+const GlobalStyle = createGlobalStyle`
+  body {
+    background-color: #051120;
+  }
+`;
+
 const LayoutContainerStyle = styled.div`
-  height: 100%;
   width: 100%;
+  height: 100%;
+  margin-top:
   margin: 0;
   padding: 0;
   background-color: #051120;
@@ -25,10 +32,10 @@ const LayoutContainerStyle = styled.div`
 `;
 
 const LayoutStyle = styled.div`
-
   margin: auto;
   width: 100%;
   font-size: 10px;
+  background-color: #051120;
 
   @media only screen and (min-width: 768px) {
     font-size: 16px;
@@ -48,12 +55,15 @@ const Layout = ({ children }) => {
   `)
 
   return (
+
     <LayoutContainerStyle>
+    <GlobalStyle/>
       <LayoutStyle>
         <Header siteTitle={data.site.siteMetadata.title} />
         <main>{children}</main>
       </LayoutStyle>
     </LayoutContainerStyle>
+
   )
 }
 
