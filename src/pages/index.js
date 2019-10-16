@@ -42,10 +42,12 @@ const IndexPage = () => (
       <br/>
       <br/>
       <br/>
-      <Link to='/1571242602'>October 2019</Link><br/>
+
       <Link to='/1570683264'>August 2019</Link><br/>
     </PreStyle>
   </Layout>
 )
+
+//       <!--Link to='/1571242602'>October 2019</Link><br/>
 
 export default IndexPage
