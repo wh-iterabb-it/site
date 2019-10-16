@@ -47,6 +47,7 @@ const DashboardPage = () => (
 <API apiUrl='https://mtastate.herokuapp.com/health' name='mtastate' link='https://github.com/wh-iterabb-it/mtastate'/>
 <API apiUrl='https://meteorology.herokuapp.com/health' name='meteorology' link='https://github.com/wh-iterabb-it/meteorology'/>
 <API apiUrl='https://aphorismcookie.herokuapp.com/health' name='aphorismcookie' link='https://github.com/wh-iterabb-it/aphorismcookie'/>
+<API apiUrl='https://cryptoget.herokuapp.com/health' name='cryptoget' link='https://github.com/wh-iterabb-it/cryptoget'/>
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: <span>DASHBOARD</span> :::<br/><br/>
 
     </PreStyle>
