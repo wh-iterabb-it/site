@@ -82,4 +82,5 @@ const BlogPage = () => (
 </div>
 );
 
+
 export default BlogPage
