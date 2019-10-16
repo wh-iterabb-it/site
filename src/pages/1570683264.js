@@ -28,7 +28,6 @@ const RedAccentStyle = styled.span`
 `;
 
 const LayoutContainerStyle = styled.div`
-  height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -141,7 +140,7 @@ const BlogPage = () => (
   │                                                         │<br/>
   ├─╼ <BlueStyle>patch notes</BlueStyle> ╾────────────────────────────────── ···   │<br/>
   │                                                         │<br/>
-  │  >> <Link to='/password'>We created a new password generator.</Link>                │<br/>
+  │  >> <Link to='/dashboard'>We created a dashboard to check on our APIs</Link>         │<br/>
   │                                                         │<br/>
   │                                                         │<br/>
   │ ··· ────────────────────────────────────────────────────┤<br/>

@@ -2,8 +2,6 @@ html, body, #___gatsby {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #051120;
-  color: #FFFFFF;
 }
 
 #___gatsby > * {

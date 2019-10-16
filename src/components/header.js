@@ -49,6 +49,7 @@ const NavStyle = styled.nav`
 
   ul {
     margin: 0;
+    margin-top:1rem;
     padding: 0;
     list-style: none;
   }
@@ -76,17 +77,15 @@ const Header = ({ siteTitle }) => (
       <LogoStyle><ASCIILogo1/></LogoStyle>
       <NavStyle>
         <ul>
+          <li><Link to='/'>home</Link></li>
           <li><span>|</span></li>
-          <li><Link to='/'>Home</Link></li>
+          <li><Link to='/dashboard'>dashboard</Link></li>
           <li><span>|</span></li>
-          <li><Link to='/dashboard'>Dashboard</Link></li>
+          <li><a href='https://github.com/wh-iterabb-it'>github</a></li>
           <li><span>|</span></li>
-          <li><a href='https://github.com/wh-iterabb-it'>Github</a></li>
+          <li><a href='https://twitter.com/wh_iterabb_it'>twitter</a></li>
           <li><span>|</span></li>
-          <li><a href='https://twitter.com/wh_iterabb_it'>Twitter</a></li>
-          <li><span>|</span></li>
-          <li><Link to='/about'>About</Link></li>
-          <li><span>|</span></li>
+          <li><Link to='/about'>about</Link></li>
         </ul>
       </NavStyle>
     </HeaderStyle>
