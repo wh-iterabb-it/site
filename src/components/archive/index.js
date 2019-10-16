@@ -2,16 +2,19 @@ import React from 'react';
 import styled from 'styled-components';
 
 const DefaultAsciiStyle = styled.pre`
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
   display: inline-block;
   width: 100%;
   white-space: pre-wrap;
   font-family: 'Source Code Pro', Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif;
   font-size: 10px;
   letter-spacing: -0.1rem;
-  line-height: 0.7rem;
+  line-height: ${props => props.theme.line_height};
   text-shadow: 0 0 2px rgba(100,100,100,0.5);
   margin-top: 2 rem;
-  color: ${props => props.theme.main_color};
+  color: ${props => props.theme.primary_color};
 
   a {
     text-decoration: none;
@@ -21,8 +24,6 @@ const DefaultAsciiStyle = styled.pre`
   @media only screen and (min-width: ${props => props.theme.min_width} ) {
     font-size: 16px;
     width: ${props => props.theme.max_width};
-    line-height: 0.8rem;
-
   }
 `;
 
@@ -30,6 +31,7 @@ const LayoutContainerStyle = styled.div`
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
   -ms-text-size-adjust: none;
+  height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
