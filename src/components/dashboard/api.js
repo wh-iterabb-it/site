@@ -23,12 +23,18 @@ const APIContainerStyle = styled.div`
   span {
     color: #c45100;
   }
-
-  a {
-    text-decoration: none;
-    color: #66cc66;
-  }
 `;
+
+const APIErrorStyle = styled.a`
+    text-decoration: none;
+    color: #CC6666;
+`;
+
+const APIGoodStyle = styled.a`
+    text-decoration: none;
+    color: #66CC66;
+`;
+
 
 class API extends Component {
   constructor(props) {
@@ -71,17 +77,24 @@ class API extends Component {
   render() {
     const { error, isLoaded, items } = this.state;
     if (error) {
-      return <div>Error: {error.message}</div>;
+      return (
+<APIContainerStyle>
+<span>{this.state.name} API</span><br/>
+::  Status: <APIErrorStyle href={this.state.apiUrl}>BAD!</APIErrorStyle>         ::<br/>
+::  Error: {error.message}  ::
+<APIErrorStyle href={this.state.link}>[{this.state.name}@GITHUB]</APIErrorStyle><br/>
+</APIContainerStyle>
+      );
     } else if (!isLoaded) {
       return <div>Loading...</div>;
     } else {
       return (
 <APIContainerStyle>
 <span>{this.state.name} API</span><br/>
-::  Status: <a href={this.state.apiUrl}>GOOD</a>         ::<br/>
+::  Status: <APIGoodStyle href={this.state.apiUrl}>GOOD</APIGoodStyle>         ::<br/>
 ::  Uptime: {items.uptime}  ::<br/>
 ::  Version: {items.version}       ::<br/>
-<a href={this.state.link}>[{this.state.name}@GITHUB]</a><br/>
+<APIGoodStyle href={this.state.link}>[{this.state.name}@GITHUB]</APIGoodStyle><br/>
 </APIContainerStyle>
       );
     }
