@@ -20,6 +20,7 @@ a dashboard to view the organization' api's status, possibly a zine
 npm install
 ```
 
+
 ### Example Usage
 
 Basic usage
