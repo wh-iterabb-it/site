@@ -24,9 +24,11 @@ const OverlapStyle = styled.div`
 
 const BlogPage = () => (
 <div>
+
   <ThemeProvider theme={theme}>
     <LayoutContainerStyle>
       <LayoutStyle>
+        <SEO title='october - WR ZINE' />
         <DefaultAsciiStyle>
 &nbsp;                      ┌──────────────────┐                       <br/>
 &nbsp;                      │ ┌── ─ -  - ─ ──┐ │                       <br/>
