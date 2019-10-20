@@ -9,12 +9,12 @@ const theme = {
   min_width: '768px',
   max_width: '40rem',
   main_color: '#FFFFFF',
-  link_color: '#9ef2f7', // blue
+  link_color: '#9EF2F7', // waterspout
   line_height: '0.8rem',
-  primary_color: '#f1a66a',
-  secondary_color: '#B83000',
-  trinary_color: '#1d2028',
-  background: '#282b36'
+  primary_color: '#F1A66A', //sandy brown
+  secondary_color: '#B83000', // mahogany
+  trinary_color: '#247BA0', // lapis lazuli
+  background: '#282b36' // gunmetal
 };
 
 const OverlapStyle = styled.div`
@@ -24,7 +24,6 @@ const OverlapStyle = styled.div`
 
 const BlogPage = () => (
 <div>
-
   <ThemeProvider theme={theme}>
     <LayoutContainerStyle>
       <LayoutStyle>
@@ -52,13 +51,18 @@ const BlogPage = () => (
 │                                                                          │<br/>
 <OverlapStyle><ASCIIRocketFrame/></OverlapStyle>
 │                                                                          │<br/>
-│   <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://www.apnews.com/d6a459d8c4774153ad71de95e9effea0'>North Korea conducts under-water missile launch test days before</a>     │<br/>
-│      <a href='https://www.apnews.com/d6a459d8c4774153ad71de95e9effea0'>resuming US talks</a>                                                    │<br/>
+│  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://www.apnews.com/d6a459d8c4774153ad71de95e9effea0'>North Korea conducts under-water missile launch test days before</a>     │<br/>
+│     <a href='https://www.apnews.com/d6a459d8c4774153ad71de95e9effea0'>resuming US talks</a>                                                    │<br/>
 │                                                                          │<br/>
-│   <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://www.snopes.com/ap/2019/10/15/ahead-of-2020-fb-ensnared-in-heated-political-climate/'>The hashtag deletefacebook is trending on social media after it</a>      │<br/>
-│      <a href='https://www.snopes.com/ap/2019/10/15/ahead-of-2020-fb-ensnared-in-heated-political-climate/'>emerged Mark Zuckerberg held informal dinners with conservative</a>      │<br/>
-│      <a href='https://www.snopes.com/ap/2019/10/15/ahead-of-2020-fb-ensnared-in-heated-political-climate/'>politicians and commentators in the US.</a>                              │<br/>
+│  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://www.snopes.com/ap/2019/10/15/ahead-of-2020-fb-ensnared-in-heated-political-climate/'>The hashtag deletefacebook is trending on social media after it</a>      │<br/>
+│     <a href='https://www.snopes.com/ap/2019/10/15/ahead-of-2020-fb-ensnared-in-heated-political-climate/'>emerged Mark Zuckerberg held informal dinners with conservative</a>      │<br/>
+│     <a href='https://www.snopes.com/ap/2019/10/15/ahead-of-2020-fb-ensnared-in-heated-political-climate/'>politicians and commentators in the US.</a>                              │<br/>
 │                                                                          │<br/>
+│                                                                          │<br/>
+
+
+
+
 │                                                                          │<br/>
 │                                                                          │<br/>
 │ │                                                                      │ │<br/>
@@ -66,7 +70,7 @@ const BlogPage = () => (
 └─────────┐                                                      ┌─────────┘<br/>
 &nbsp;         │                                                      │          <br/>
 ┌─────────┘                                                      └─────────┐<br/>
-│ ┌── ─ -           P   A   T   C   H   N   O   T   E   S          - ─ ──┐ │<br/>
+│ ┌── ─ -           <SecSpanStyle>P   A   T   C   H   N   O   T   E   S</SecSpanStyle>          - ─ ──┐ │<br/>
 │ │                                                                      │ │<br/>
 │                                                                          │<br/>
 │                                                                          │<br/>

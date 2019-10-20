@@ -32,16 +32,26 @@ const PreStyle = styled.div`
   }
 `;
 
+const LogoStyle = styled.span`
+  color: #FFFFFF;
+`;
+
+const StripeStyle = styled.span`
+  color: #B83000;
+`;
+
+
 const IndexPage = () => (
   <Layout>
     <SEO title='home - whiterabbit' />
     <PreStyle>
       <br/>
       <br/>
-      <b>▁ ▂ ▄ ▅ ▆ ▇ █  A R C H I V E  █ ▇ ▆ ▅ ▄ ▂ ▁</b>
+W<StripeStyle>|</StripeStyle>R<br/>
+ZI<StripeStyle>|</StripeStyle>NE<br/><br/>
+ARCHIVES<br/>
       <br/>
-      <br/>
-      <br/>
+
 
       <Link to='/1570683264'>August 2019</Link><br/>
     </PreStyle>
