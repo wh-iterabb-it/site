@@ -83,6 +83,8 @@ const BlogPage = () => (
 <ASCIILogo2/><br/>
 : ┌─┐     <BlueStyle>august</BlueStyle>                                          ┌─┐ :<br/>
 └─│─┘                              <BlueStyle>updated</BlueStyle> 1570683264     └─│─┘<br/>
+  │                                                         │<br/>
+  │                                                         │<br/>
   │ ··· ────────────────────────────────────────────────────┤<br/>
   │                                                         │<br/>
   ├─╼ <BlueStyle>news</BlueStyle> ╾───────────────────────────────────────── ···   │<br/>
