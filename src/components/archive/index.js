@@ -12,7 +12,7 @@ const DefaultAsciiStyle = styled.pre`
   font-size: 10px;
   letter-spacing: -0.1rem;
   line-height: 0.7rem;
-  text-shadow: 0 0 2px rgba(100,100,100,0.5);
+
   margin-top: 2 rem;
   color: ${props => props.theme.main_color};
 
@@ -27,7 +27,7 @@ const DefaultAsciiStyle = styled.pre`
     line-height: 0.8rem;
   }
 `;
-
+ //text-shadow: 0 0 2px rgba(100,100,100,0.5);
 const LayoutContainerStyle = styled.div`
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;

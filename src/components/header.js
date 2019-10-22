@@ -77,7 +77,7 @@ const Header = ({ siteTitle }) => (
       <LogoStyle><ASCIILogo1/></LogoStyle>
       <NavStyle>
         <ul>
-          <li><Link to='/'>home</Link></li>
+          <li><Link to='/'>~/</Link></li>
           <li><span>|</span></li>
           <li><Link to='/dashboard'>dashboard</Link></li>
           <li><span>|</span></li>
