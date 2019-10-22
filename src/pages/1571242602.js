@@ -63,6 +63,8 @@ const BlogPage = () => (
 │                                                                          │<br/>
 │  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://arstechnica.com/information-technology/2019/10/us-claims-cyber-strike-on-iran-after-attack-on-saudi-oil-facility/'>US claims cyber strike on Iran after attack on Saudi oil facility</a>    │<br/>
 │                                                                          │<br/>
+│  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://www.us-cert.gov/ncas/current-activity/2019/10/21/nsa-and-ncsc-release-joint-advisory-turla-group-activity'>Russian hacker group hacks Iranian hacker group</a>                      │<br/>
+│     <a href='https://www.us-cert.gov/ncas/current-activity/2019/10/21/nsa-and-ncsc-release-joint-advisory-turla-group-activity'>to use their resources to hack the US and UK</a>                         │<br/>
 │                                                                          │<br/>
 │                                                                          │<br/>
 │                                                                          │<br/>
@@ -80,6 +82,11 @@ const BlogPage = () => (
 │                                                                          │<br/>
 │  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://googleprojectzero.blogspot.com/2019/08/a-very-deep-dive-into-ios-exploit.html'>A very deep dive into iOS Exploit chains found in the wild</a>           │<br/>
 │                                                                          │<br/>
+│  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://krebsonsecurity.com/2019/10/avast-nordvpn-breaches-tied-to-phantom-user-accounts/'>Avast and NordVPN confirms it was hacked,</a>                            │<br/>
+│     <a href='https://krebsonsecurity.com/2019/10/avast-nordvpn-breaches-tied-to-phantom-user-accounts/'>Breaches Tied to Phantom User Accounts</a>                               │<br/>
+│                                                                          │<br/>
+│  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://github.com/Anon-Exploiter/SUID3NUM'>Python script to assist in finding SUID binaries more effectively</a>    │<br/>
+│                                                                          │<br/>
 │                                                                          │<br/>
 │                                                                          │<br/>
 │ │                                                                      │ │<br/>
@@ -90,7 +97,7 @@ const BlogPage = () => (
 │ ┌── ─ -           <SecSpanStyle>P   A   T   C   H   N   O   T   E   S</SecSpanStyle>          - ─ ──┐ │<br/>
 │ │                                                                      │ │<br/>
 │                                                                          │<br/>
-
+│                                                                          │<br/>
 │                                                                          │<br/>
 │                                                                          │<br/>
 │ │                                                                      │ │<br/>
