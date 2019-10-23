@@ -54,15 +54,39 @@ const BlogPage = () => (
 │  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://www.apnews.com/d6a459d8c4774153ad71de95e9effea0'>North Korea conducts under-water missile launch test days before</a>     │<br/>
 │     <a href='https://www.apnews.com/d6a459d8c4774153ad71de95e9effea0'>resuming US talks</a>                                                    │<br/>
 │                                                                          │<br/>
+│  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://objective-see.com/blog/blog_0x49.html'>N. Korean Hackers The Infamous Lazarus apt Group’ New MacOS Malware</a>  │<br/>
+│     <a href='https://objective-see.com/blog/blog_0x49.html'>Hides Behind Fake Crypto Firm With Its Own Fake Exchange App</a>         |<br/>
+│                                                                          │<br/>
 │  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://www.snopes.com/ap/2019/10/15/ahead-of-2020-fb-ensnared-in-heated-political-climate/'>The hashtag deletefacebook is trending on social media after it</a>      │<br/>
 │     <a href='https://www.snopes.com/ap/2019/10/15/ahead-of-2020-fb-ensnared-in-heated-political-climate/'>emerged Mark Zuckerberg held informal dinners with conservative</a>      │<br/>
 │     <a href='https://www.snopes.com/ap/2019/10/15/ahead-of-2020-fb-ensnared-in-heated-political-climate/'>politicians and commentators in the US.</a>                              │<br/>
 │                                                                          │<br/>
+│  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://arstechnica.com/information-technology/2019/10/us-claims-cyber-strike-on-iran-after-attack-on-saudi-oil-facility/'>US claims cyber strike on Iran after attack on Saudi oil facility</a>    │<br/>
 │                                                                          │<br/>
-
-
-
-
+│  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://www.us-cert.gov/ncas/current-activity/2019/10/21/nsa-and-ncsc-release-joint-advisory-turla-group-activity'>Russian hacker group hacks Iranian hacker group</a>                      │<br/>
+│     <a href='https://www.us-cert.gov/ncas/current-activity/2019/10/21/nsa-and-ncsc-release-joint-advisory-turla-group-activity'>to use their resources to hack the US and UK</a>                         │<br/>
+│                                                                          │<br/>
+│                                                                          │<br/>
+│                                                                          │<br/>
+│ │                                                                      │ │<br/>
+│ └── ─ -                                                          - ─ ──┘ │<br/>
+└─────────┐                                                      ┌─────────┘<br/>
+&nbsp;         │                                                      │          <br/>
+┌─────────┘                                                      └─────────┐<br/>
+│ ┌── ─ -              <SecSpanStyle>N  E  A  T         H  A  C  K  S</SecSpanStyle>            - ─ ──┐ │<br/>
+│ │                                                                      │ │<br/>
+<OverlapStyle><ASCIISkull/></OverlapStyle>
+│                                                                          │<br/>
+│  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://www.evilsocket.net/2019/10/19/Weaponizing-and-Gamifying-AI-for-WiFi-Hacking-Presenting-Pwnagotchi-1-0-0/'>Weaponizing and Gamifying AI for WIFI Hacking:</a>                       │<br/>
+│     <a href='https://www.evilsocket.net/2019/10/19/Weaponizing-and-Gamifying-AI-for-WiFi-Hacking-Presenting-Pwnagotchi-1-0-0/'>Presenting PWNAGOTCHI 1.0.0</a>                                          │<br/>
+│                                                                          │<br/>
+│  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://googleprojectzero.blogspot.com/2019/08/a-very-deep-dive-into-ios-exploit.html'>A very deep dive into iOS Exploit chains found in the wild</a>           │<br/>
+│                                                                          │<br/>
+│  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://krebsonsecurity.com/2019/10/avast-nordvpn-breaches-tied-to-phantom-user-accounts/'>Avast and NordVPN confirms it was hacked,</a>                            │<br/>
+│     <a href='https://krebsonsecurity.com/2019/10/avast-nordvpn-breaches-tied-to-phantom-user-accounts/'>Breaches Tied to Phantom User Accounts</a>                               │<br/>
+│                                                                          │<br/>
+│  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://github.com/Anon-Exploiter/SUID3NUM'>Python script to assist in finding SUID binaries more effectively</a>    │<br/>
+│                                                                          │<br/>
 │                                                                          │<br/>
 │                                                                          │<br/>
 │ │                                                                      │ │<br/>
@@ -72,6 +96,7 @@ const BlogPage = () => (
 ┌─────────┘                                                      └─────────┐<br/>
 │ ┌── ─ -           <SecSpanStyle>P   A   T   C   H   N   O   T   E   S</SecSpanStyle>          - ─ ──┐ │<br/>
 │ │                                                                      │ │<br/>
+│                                                                          │<br/>
 │                                                                          │<br/>
 │                                                                          │<br/>
 │                                                                          │<br/>
