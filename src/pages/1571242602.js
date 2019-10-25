@@ -87,6 +87,7 @@ const BlogPage = () => (
 │                                                                          │<br/>
 │  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://github.com/Anon-Exploiter/SUID3NUM'>Python script to assist in finding SUID binaries more effectively</a>    │<br/>
 │                                                                          │<br/>
+│  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://habr.com/en/company/dsec/blog/472762/'>Technical analysis of the checkm8 exploit</a>                            │<br/>
 │                                                                          │<br/>
 │                                                                          │<br/>
 │ │                                                                      │ │<br/>
