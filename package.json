@@ -41,7 +41,7 @@
     "react-helmet": "5.2.1",
     "react-redux": "^7.1.1",
     "redux": "^4.0.4",
-    "styled-components": "4.4.0"
+    "styled-components": "4.4.1"
   },
   "devDependencies": {
     "prettier": "1.18.2"
