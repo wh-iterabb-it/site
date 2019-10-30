@@ -51,6 +51,7 @@ const IndexPage = () => (
       ZI<StripeStyle>|</StripeStyle>NE<br/><br/>
       <br/>
       <br/>
+      <Link to='/1572456993'>October 2019</Link><br/>
       <Link to='/1570683264'>August 2019</Link><br/>
     </PreStyle>
   </Layout>
