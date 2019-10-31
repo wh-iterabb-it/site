@@ -4,6 +4,8 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import {ASCIILogo1, ASCIILogo2, ASCIILogo4} from '../components/logo';
+import TinyLetter from '../components/tinyletter';
+
 
 const PreStyle = styled.div`
   margin: auto;
@@ -51,8 +53,12 @@ const IndexPage = () => (
       ZI<StripeStyle>|</StripeStyle>NE<br/><br/>
       <br/>
       <br/>
-      <Link to='/1572456993'>October 2019</Link><br/>
+      <br/>
+      <Link to='/1572456993'>October 2019</Link><br/><br/>
       <Link to='/1570683264'>August 2019</Link><br/>
+      <br/>
+      <br/>
+      <TinyLetter/>
     </PreStyle>
   </Layout>
 )

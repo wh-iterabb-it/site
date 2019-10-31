@@ -4,6 +4,7 @@ import SEO from '../components/seo';
 import {DefaultAsciiStyle, LayoutContainerStyle, LayoutStyle, MainSpanStyle, PrimeSpanStyle, SecSpanStyle, TriSpanStyle} from '../components/archive';
 import {ASCIISkull, ASCIIRocket, ASCIIRocketFrame, Logo} from '../components/archive/art/1572456993';
 import styled, { ThemeProvider } from 'styled-components';
+import TinyLetter from '../components/tinyletter';
 
 const theme = {
   min_width: '768px',
@@ -104,8 +105,7 @@ const BlogPage = () => (
 │ │                                                                      │ │<br/>
 │                                                                          │<br/>
 │                                                                          │<br/>
-│  >> We added a new Email Newsletter, Sign up to get monthly updates      │<br/>
-│                                                                          │<br/>
+│  <PrimeSpanStyle>>></PrimeSpanStyle> <a href='https://tinyletter.com/wh-iterabb-it/'>We added a new Email Newsletter, Sign up to get monthly updates</a>      │<br/>
 │                                                                          │<br/>
 │                                                                          │<br/>
 │ │                                                                      │ │<br/>
