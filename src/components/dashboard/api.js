@@ -100,6 +100,7 @@ class API extends Component {
 ::  Status: <APIGoodStyle href={this.state.apiUrl}>GOOD</APIGoodStyle>         ::<br/>
 ::  Uptime: {items.uptime}  ::<br/>
 ::  Version: {items.version}       ::<br/>
+::  Requests: {items.requests}     ::<br/>
 <APIGoodStyle href={this.state.link}>[{this.state.name}@GITHUB]</APIGoodStyle><br/>
 </APIContainerStyle>
       );
