@@ -74,7 +74,7 @@ const Header = ({ siteTitle }) => (
   <HeaderContainerStyle>
     <HeaderStyle>
       <br/>
-      <LogoStyle><ASCIILogo1/></LogoStyle>
+      <LogoStyle><ASCIILogo2/></LogoStyle>
       <NavStyle>
         <ul>
           <li><Link to='/'>~/</Link></li>
