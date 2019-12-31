@@ -2,7 +2,7 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import styled from 'styled-components';
-import {ASCIILogo1} from './logo';
+import {ASCIILogo2} from './logo';
 
 const HeaderContainerStyle = styled.div`
   position: relative;
