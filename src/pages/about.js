@@ -43,6 +43,23 @@ const AboutPage = () => (
 |                                                                             |<br/>
 \=============================================================================/<br/><br/>
     </PreStyle>
+    <p><br/></p>
+    <PreStyle>
+/== <BlueStyle>COVID-19</BlueStyle> =================================================================\<br/>
+|                                                                             |<br/>
+| Our Organization, wh.iterabb.it being centered in the heart of Manhattan NYC|<br/>
+| is fortunate enough to be safe during these times, but there are many who   |<br/>
+| still need help. In a state of emergency, it takes a world —ALL OF US—      |<br/>
+| to combat coronavirus.                                                      |<br/>
+| We made a committment to generate 1,000$ to the CDC Foundation's            |<br/>
+| coronavirus (COVID-19) emergency response fund, which deploys emergency     |<br/>
+| staffing to public health agencies, funds medical supplies, increases       |<br/>
+| lab capacity, provides support to vulnerable communities, and much more.    |<br/>
+| To learn more or make a donation go to:                                     |<br/>
+| <a href='https://tiltify.com/@wh-iterabb-it/whiterabbit-campaign-for-cdc-covid-19-emergency-response-fund'> Our CDC Tiltify Page </a>                                     |<br/>
+|                                                                             |<br/>
+\=============================================================================/<br/><br/>
+    </PreStyle>
 
   </Layout>
 )
