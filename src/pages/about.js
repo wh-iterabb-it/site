@@ -8,6 +8,9 @@ import {ImageLogo} from '../components/logo';
 const BlueStyle = styled.span`
   color: #66CCCC;
 `;
+const CLink = styled.a`
+  color: #66CCCC;
+`;
 
 const PreStyle = styled.div`
   margin: auto;
@@ -43,7 +46,6 @@ const AboutPage = () => (
 |                                                                             |<br/>
 \=============================================================================/<br/><br/>
     </PreStyle>
-    <p><br/></p>
     <PreStyle>
 /== <BlueStyle>COVID-19</BlueStyle> =================================================================\<br/>
 |                                                                             |<br/>
@@ -56,7 +58,7 @@ const AboutPage = () => (
 | staffing to public health agencies, funds medical supplies, increases       |<br/>
 | lab capacity, provides support to vulnerable communities, and much more.    |<br/>
 | To learn more or make a donation go to:                                     |<br/>
-| <a href='https://tiltify.com/@wh-iterabb-it/whiterabbit-campaign-for-cdc-covid-19-emergency-response-fund'> Our CDC Tiltify Page </a>                                     |<br/>
+|        <CLink href='https://tiltify.com/@wh-iterabb-it/whiterabbit-campaign-for-cdc-covid-19-emergency-response-fund'>Our CDC Tiltify Page</CLink>                                                 |<br/>
 |                                                                             |<br/>
 \=============================================================================/<br/><br/>
     </PreStyle>
