@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import React, { Component }  from 'react';
-import PropTypes from 'prop-types';
+import styled from "styled-components"
+import React, { Component } from "react"
+import PropTypes from "prop-types"
 
 const APIContainerStyle = styled.div`
   position: relative;
@@ -29,42 +29,41 @@ const APIContainerStyle = styled.div`
     width: 19rem;
     font-size: 16px;
   }
-`;
+`
 
 const APIErrorStyle = styled.a`
-    text-decoration: none;
-    color: #CC6666;
-`;
+  text-decoration: none;
+  color: #cc6666;
+`
 
 const APIGoodStyle = styled.a`
-    text-decoration: none;
-    color: #66CC66;
-`;
-
+  text-decoration: none;
+  color: #66cc66;
+`
 
 class API extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       apiUrl: props.apiUrl,
       name: props.name,
       link: props.link,
       error: null,
       isLoaded: false,
-      items: []
-    };
+      items: [],
+    }
   }
 
   componentDidMount() {
     fetch(this.state.apiUrl)
-      .then(res => res.json())
+      .then((res) => res.json())
       .then(
         (result) => {
-          console.log(result);
+          console.log(result)
           this.setState({
             isLoaded: true,
-            items: result.data
-          });
+            items: result.data,
+          })
         },
         // Note: it's important to handle errors here
         // instead of a catch() block so that we don't swallow
@@ -72,38 +71,53 @@ class API extends Component {
         (error) => {
           this.setState({
             isLoaded: true,
-            error
-          });
+            error,
+          })
         }
       )
   }
 
-
-
   render() {
-    const { error, isLoaded, items } = this.state;
+    const { error, isLoaded, items } = this.state
     if (error) {
       return (
-<APIContainerStyle>
-<span>{this.state.name} API</span><br/>
-::  Status: <APIErrorStyle href={this.state.apiUrl}>BAD!</APIErrorStyle>         ::<br/>
-::  Error: {error.message}  ::
-<APIErrorStyle href={this.state.link}>[{this.state.name}@GITHUB]</APIErrorStyle><br/>
-</APIContainerStyle>
-      );
+        <APIContainerStyle>
+          <span>{this.state.name} API</span>
+          <br />
+          :: Status:{" "}
+          <APIErrorStyle href={this.state.apiUrl}>BAD!</APIErrorStyle> ::
+          <br />
+          :: Error: {error.message} ::
+          <APIErrorStyle href={this.state.link}>
+            [{this.state.name}@GITHUB]
+          </APIErrorStyle>
+          <br />
+        </APIContainerStyle>
+      )
     } else if (!isLoaded) {
-      return <div>Loading...</div>;
+      return <div>Loading...</div>
     } else {
       return (
-<APIContainerStyle>
-<span>{this.state.name} API</span><br/>
-::  Status: <APIGoodStyle href={this.state.apiUrl}>GOOD</APIGoodStyle>         ::<br/>
-::  Uptime: {items.uptime}  ::<br/>
-::  Version: {items.version}       ::<br/>
-::  Requests: {items.requests}     ::<br/>
-<APIGoodStyle href={this.state.link}>[{this.state.name}@GITHUB]</APIGoodStyle><br/>
-</APIContainerStyle>
-      );
+        <APIContainerStyle>
+          <span>{this.state.name} API</span>
+          <br />
+          :: Status: <APIGoodStyle href={this.state.apiUrl}>
+            GOOD
+          </APIGoodStyle>{" "}
+          ::
+          <br />
+          :: Uptime: {items.uptime} ::
+          <br />
+          :: Version: {items.version} ::
+          <br />
+          :: Requests: {items.requests} ::
+          <br />
+          <APIGoodStyle href={this.state.link}>
+            [{this.state.name}@GITHUB]
+          </APIGoodStyle>
+          <br />
+        </APIContainerStyle>
+      )
     }
   }
 }

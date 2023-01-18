@@ -1,11 +1,10 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Link } from 'gatsby';
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import {ASCIILogo1, ASCIILogo2, ASCIILogo4} from '../components/logo';
-import TinyLetter from '../components/tinyletter';
-
+import React from "react"
+import styled from "styled-components"
+import { Link } from "gatsby"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import { ASCIILogo1, ASCIILogo2, ASCIILogo4 } from "../components/logo"
+import TinyLetter from "../components/tinyletter"
 
 const PreStyle = styled.div`
   margin: auto;
@@ -13,14 +12,16 @@ const PreStyle = styled.div`
   width: 100%;
   white-space: pre-wrap;
   display: inline-block;
-  font-family: 'Source Code Pro', Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif;
+  font-family: "Source Code Pro", Consolas, Menlo, Monaco, "Lucida Console",
+    "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+    "Courier New", monospace, sans-serif;
   letter-spacing: -0.1rem;
   line-height: 1.1 rem;
-  color: #FFFFFF;
-  text-shadow: 0 0 2px rgba(100,100,100,0.5);
+  color: #ffffff;
+  text-shadow: 0 0 2px rgba(100, 100, 100, 0.5);
   margin-top: 2 rem;
   span {
-    color: #66CCCC;
+    color: #66cccc;
   }
 
   a {
@@ -32,33 +33,36 @@ const PreStyle = styled.div`
     font-size: 16px;
     width: 40rem;
   }
-`;
+`
 
 const LogoStyle = styled.span`
-  color: #FFFFFF;
-`;
+  color: #ffffff;
+`
 
 const StripeStyle = styled.span`
-  color: #B83000;
-`;
-
+  color: #b83000;
+`
 
 const IndexPage = () => (
   <Layout>
-    <SEO title='home - whiterabbit' />
+    <SEO title="home - whiterabbit" />
     <PreStyle>
-      <br/>
-      <br/>
-      W<StripeStyle>|</StripeStyle>R<br/>
-      ZI<StripeStyle>|</StripeStyle>NE<br/><br/>
-      <br/>
-      <br/>
-      <br/>
-      <Link to='/1572456993'>October 2019</Link><br/><br/>
-      <Link to='/1570683264'>August 2019</Link><br/>
-      <br/>
-      <br/>
-      <TinyLetter/>
+      <br />
+      <br />W<StripeStyle>|</StripeStyle>R<br />
+      ZI<StripeStyle>|</StripeStyle>NE
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Link to="/1572456993">October 2019</Link>
+      <br />
+      <br />
+      <Link to="/1570683264">August 2019</Link>
+      <br />
+      <br />
+      <br />
+      <TinyLetter />
     </PreStyle>
   </Layout>
 )

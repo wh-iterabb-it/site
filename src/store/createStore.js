@@ -1,6 +1,6 @@
-import { createStore as reduxCreateStore } from 'redux';
-import * as actionTypes from './actions';
-import {generate} from './utils';
+import { createStore as reduxCreateStore } from "redux"
+import * as actionTypes from "./actions"
+import { generate } from "./utils"
 
 const initialState = {
   length: 8,
@@ -10,29 +10,29 @@ const initialState = {
     uppercase: true,
     numbers: true,
     noamb: true,
-    nosimilar: true
+    nosimilar: true,
   },
-  password: 'password'
-};
+  password: "password",
+}
 
 const reducer = (state, action) => {
   switch (action.type) {
     case actionTypes.GENERATE_PASSWORD:
-      const newPassword = generate(state.length, state.options);
+      const newPassword = generate(state.length, state.options)
       return {
         ...state,
-        password: newPassword
+        password: newPassword,
       }
     case actionTypes.SET_LENGTH_VALUES:
-    return {
-      ...state,
-      length: action.payload
-    }
+      return {
+        ...state,
+        length: action.payload,
+      }
     default:
-      return state;
+      return state
   }
 }
 
-const createStore = () => reduxCreateStore(reducer, initialState);
+const createStore = () => reduxCreateStore(reducer, initialState)
 
-export default createStore;
+export default createStore

@@ -1,13 +1,13 @@
-import React, { Component }  from 'react';
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
+import React, { Component } from "react"
+import PropTypes from "prop-types"
+import { connect } from "react-redux"
 
 const Password = ({ password, generate }) => (
   <div>
     <p>password: {password}</p>
     <button onClick={generate}>Generate</button>
   </div>
-);
+)
 
 Password.propTypes = {
   password: PropTypes.string.isRequired,
@@ -18,14 +18,11 @@ const mapStateToProps = ({ password }) => {
   return { password }
 }
 
-const mapDispatchToProps = dispatch => {
+const mapDispatchToProps = (dispatch) => {
   return { generate: () => dispatch({ type: `GENERATE_PASSWORD` }) }
 }
 
-const ConnectedPassword = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(Password)
+const ConnectedPassword = connect(mapStateToProps, mapDispatchToProps)(Password)
 
 class PasswordLayout extends Component {
   render() {
