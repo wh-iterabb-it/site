@@ -16,20 +16,24 @@ class MOTD extends Component {
   }
 
   componentDidMount() {
+    try {
     fetch('https://aphorismcookie.herokuapp.com/')
       .then(res => res.json())
       .then((result) => {
         console.log(result);
         this.setState({
           isLoaded: true,
-          items:  JSON.parse(result.data)
+          items: JSON.parse(result.data)
         });
       }, (error) => {
         this.setState({
           isLoaded: true,
           error
         });
-      })
+      });
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   render() {
