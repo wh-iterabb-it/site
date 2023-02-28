@@ -22,7 +22,7 @@ class MOTD extends Component {
         console.log(result);
         this.setState({
           isLoaded: true,
-          items: result.data
+          items:  JSON.parse(result.data)
         });
       }, (error) => {
         this.setState({
