@@ -3,6 +3,7 @@ module.exports = {
     title: `wh.iterabb.it`,
     description: ``,
     author: `@katelibby`,
+    siteUrl: "https://wh.iterabb.it"
   },
   plugins: [
     {
