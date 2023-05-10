@@ -43,7 +43,7 @@ class MOTD extends Component {
     } else if (!isLoaded) {
       return <div>Loading...</div>;
     } else {
-      return (<MOTDContainerStyle>{items.data}</MOTDContainerStyle>);
+      return (<MOTDContainerStyle>{items.data.message}</MOTDContainerStyle>);
     }
   }
 }
