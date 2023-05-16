@@ -63,7 +63,7 @@ class API extends Component {
           console.log(result);
           this.setState({
             isLoaded: true,
-            items: result.data
+            items: result.meta || result.data
           });
         },
         // Note: it's important to handle errors here
@@ -77,8 +77,6 @@ class API extends Component {
         }
       )
   }
-
-
 
   render() {
     const { error, isLoaded, items } = this.state;

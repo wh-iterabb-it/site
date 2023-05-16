@@ -18,12 +18,13 @@ class MOTD extends Component {
   componentDidMount() {
     try {
     fetch('https://aphorismcookie.herokuapp.com/')
-      .then(res => res.json())
-      .then((result) => {
+    .then(res => res.json())
+    .then(
+      (result) => {
         console.log(result);
         this.setState({
           isLoaded: true,
-          items: JSON.parse(result)
+          items: result
         });
       }, (error) => {
         this.setState({
