@@ -32,7 +32,6 @@
     "gatsby": "^5.9.1",
     "gatsby-image": "3.11.0",
     "gatsby-source-filesystem": "^5.9.0",
-    "gatsby-plugin-gatsby-cloud": "4.24.0",
     "gatsby-plugin-google-analytics": "4.24.0",
     "gatsby-plugin-google-fonts": "1.0.1",
     "gatsby-plugin-google-gtag": "4.24.0",
