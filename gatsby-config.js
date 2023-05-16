@@ -38,7 +38,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    "gatsby-plugin-sitemap",
     {
 			resolve: 'gatsby-plugin-google-fonts',
 			options: {
