@@ -81,9 +81,9 @@ const Header = ({ siteTitle }) => (
           <li><span>|</span></li>
           <li><Link to='/dashboard'>dashboard</Link></li>
           <li><span>|</span></li>
-          <li><a href='https://github.com/wh-iterabb-it'>github</a></li>
+          <li><a href='https://github.com/wh-iterabb-it' target='_blank'>github</a></li>
           <li><span>|</span></li>
-          <li><a href='https://twitter.com/wh_iterabb_it'>twitter</a></li>
+          <li><a href='https://discord.com/invite/3ds5WfuBhu' target='_blank'>discord</a></li>
           <li><span>|</span></li>
           <li><Link to='/about'>about</Link></li>
         </ul>

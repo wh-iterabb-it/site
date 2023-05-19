@@ -34,7 +34,9 @@ const PreStyle = styled.div`
     width: 40rem;
   }
 `;
-
+// <API apiUrl='https://mtastate.herokuapp.com/health' name='mtastate' link='https://github.com/wh-iterabb-it/mtastate'/>
+//<API apiUrl='https://cryptoget.herokuapp.com/health' name='cryptoget' link='https://github.com/wh-iterabb-it/cryptoget'/>
+// <API apiUrl='https://meteorology.herokuapp.com/health' name='meteorology' link='https://github.com/wh-iterabb-it/meteorology'/>
 const DashboardPage = () => (
   <Layout>
     <SEO title='dashboard - whiterabbit' />
@@ -44,11 +46,9 @@ const DashboardPage = () => (
 ~ <MOTD/> ~ <br/><br/>
 ::::::: <span>API HEALTH</span> ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<br/><br/>
 <API apiUrl='https://meowfacts.herokuapp.com/health' name='meowfacts' link='https://github.com/wh-iterabb-it/meowfacts'/>
-<API apiUrl='https://mtastate.herokuapp.com/health' name='mtastate' link='https://github.com/wh-iterabb-it/mtastate'/>
-<API apiUrl='https://meteorology.herokuapp.com/health' name='meteorology' link='https://github.com/wh-iterabb-it/meteorology'/>
 <API apiUrl='https://aphorismcookie.herokuapp.com/health' name='aphorismcookie' link='https://github.com/wh-iterabb-it/aphorismcookie'/>
-<API apiUrl='https://cryptoget.herokuapp.com/health' name='cryptoget' link='https://github.com/wh-iterabb-it/cryptoget'/>
-<API apiUrl='https://veneerbook.herokuapp.com/health' name='veneerbook' link='https://github.com/beaubouchard/veneerbook'/>
+<API apiUrl='https://shrewdly.herokuapp.com/health' name='shrewd' link='https://github.com/free-ignorance/shrewd'/>
+<API apiUrl='https://obiter-dictum-prod.herokuapp.com/health' name='obiter-dictum' link='https://github.com/Crucible-Standard/obiter-dictum'/>
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: <span>DASHBOARD</span> :::<br/><br/>
 
     </PreStyle>
