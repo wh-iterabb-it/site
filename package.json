@@ -28,7 +28,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
   },
   "dependencies": {
-    "babel-plugin-styled-components": "^2.1.1",
+    "babel-plugin-styled-components": "^2.1.4",
     "gatsby": "^5.9.1",
     "gatsby-image": "3.11.0",
     "gatsby-plugin-google-analytics": "^5.9.0",
