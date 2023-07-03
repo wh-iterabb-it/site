@@ -38,7 +38,7 @@
     "gatsby-plugin-manifest": "^5.9.0",
     "gatsby-plugin-prefetch-google-fonts": "1.4.3",
     "gatsby-plugin-sharp": "^5.11.0",
-    "gatsby-plugin-styled-components": "^6.10.0",
+    "gatsby-plugin-styled-components": "^6.11.0",
     "gatsby-source-filesystem": "^5.9.0",
     "gatsby-transformer-sharp": "^5.11.0",
     "isomorphic-fetch": "3.0.0",
