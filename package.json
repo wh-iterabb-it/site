@@ -35,7 +35,7 @@
     "gatsby-plugin-google-fonts": "1.0.1",
     "gatsby-plugin-google-gtag": "^5.12.0",
     "gatsby-plugin-image": "^3.12.0",
-    "gatsby-plugin-manifest": "^5.12.0",
+    "gatsby-plugin-manifest": "^5.12.1",
     "gatsby-plugin-prefetch-google-fonts": "1.4.3",
     "gatsby-plugin-sharp": "^5.12.0",
     "gatsby-plugin-styled-components": "^6.12.0",
